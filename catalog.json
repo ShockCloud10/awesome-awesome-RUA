@@ -1,0 +1,1154 @@
+[
+  {
+    "id": "github-001",
+    "title": "kairunwen/Awesome-Robot-Use-Agent",
+    "url": "https://github.com/kairunwen/Awesome-Robot-Use-Agent",
+    "platform": "github",
+    "local_note": "github/repos/kairunwen__Awesome-Robot-Use-Agent/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-002",
+    "title": "zjwzcx/Awesome-Astra-Embodied-AI",
+    "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+    "platform": "github",
+    "local_note": "github/repos/zjwzcx__Awesome-Astra-Embodied-AI/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-003",
+    "title": "harooos/awesome-coding-agents-for-robot-learning",
+    "url": "https://github.com/harooos/awesome-coding-agents-for-robot-learning",
+    "platform": "github",
+    "local_note": "github/repos/harooos__awesome-coding-agents-for-robot-learning/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-004",
+    "title": "benchflow-ai/awesome-embodied-agents",
+    "url": "https://github.com/benchflow-ai/awesome-embodied-agents",
+    "platform": "github",
+    "local_note": "github/repos/benchflow-ai__awesome-embodied-agents/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-005",
+    "title": "chonghanqin/Awesome-Agentic-Robots",
+    "url": "https://github.com/chonghanqin/Awesome-Agentic-Robots",
+    "platform": "github",
+    "local_note": "github/repos/chonghanqin__Awesome-Agentic-Robots/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-006",
+    "title": "Lin-Murphy/Awesome-Robot-Agents",
+    "url": "https://github.com/Lin-Murphy/Awesome-Robot-Agents",
+    "platform": "github",
+    "local_note": "github/repos/Lin-Murphy__Awesome-Robot-Agents/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-007",
+    "title": "GT-RIPL/Awesome-LLM-Robotics",
+    "url": "https://github.com/GT-RIPL/Awesome-LLM-Robotics",
+    "platform": "github",
+    "local_note": "github/repos/GT-RIPL__Awesome-LLM-Robotics/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-008",
+    "title": "zchoi/Awesome-Embodied-Robotics-and-Agent",
+    "url": "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent",
+    "platform": "github",
+    "local_note": "github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-009",
+    "title": "Neal2020GitHub/awesome-embodied-agents",
+    "url": "https://github.com/Neal2020GitHub/awesome-embodied-agents",
+    "platform": "github",
+    "local_note": "github/repos/Neal2020GitHub__awesome-embodied-agents/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-010",
+    "title": "cagbal/awesome-foundation-models-for-robotics",
+    "url": "https://github.com/cagbal/awesome-foundation-models-for-robotics",
+    "platform": "github",
+    "local_note": "github/repos/cagbal__awesome-foundation-models-for-robotics/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "github-011",
+    "title": "keon/awesome-physical-ai",
+    "url": "https://github.com/keon/awesome-physical-ai",
+    "platform": "github",
+    "local_note": "github/repos/keon__awesome-physical-ai/README.md",
+    "models": [],
+    "tags": [],
+    "evidence_status": "local_clone_readme_verified"
+  },
+  {
+    "id": "x001",
+    "title": "Fable 5.2 官方实机机器人演示",
+    "url": "https://x.com/claudeai/status/2119867132452221045",
+    "platform": "x",
+    "local_note": "x/x001.md",
+    "models": [
+      "Claude Fable 5.2"
+    ],
+    "tags": [
+      "Fable",
+      "official",
+      "real_robot",
+      "simulation_benchmark"
+    ],
+    "evidence_status": "primary_project_crosschecked"
+  },
+  {
+    "id": "x002",
+    "title": "Opus 5.5 与 Astra 用同一机械臂写字",
+    "url": "https://x.com/ArtificialAnlys/status/2115567357506748492",
+    "platform": "x",
+    "local_note": "x/x002.md",
+    "models": [
+      "Claude Opus 5.5",
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Opus",
+      "Astra",
+      "real_robot",
+      "writing",
+      "benchmark"
+    ],
+    "evidence_status": "mirror_post_read_and_primary_crosschecked"
+  },
+  {
+    "id": "x003",
+    "title": "Astra 与 Fable 的方块入碗评测",
+    "url": "https://x.com/chooi_jeq/status/2096064315115839904",
+    "platform": "x",
+    "local_note": "x/x003.md",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5",
+      "Claude Fable 5.1"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "real_robot",
+      "pick_and_place",
+      "benchmark"
+    ],
+    "evidence_status": "primary_project_crosschecked"
+  },
+  {
+    "id": "x004",
+    "title": "StationeryBench 双臂文具操作",
+    "url": "https://x.com/chooi_jeq/status/2098427488787730636",
+    "platform": "x",
+    "local_note": "x/x004.md",
+    "models": [
+      "GPT-6 Astra",
+      "MolmoAct2"
+    ],
+    "tags": [
+      "Astra",
+      "VLA",
+      "real_robot",
+      "bimanual",
+      "benchmark"
+    ],
+    "evidence_status": "primary_project_crosschecked"
+  },
+  {
+    "id": "x005",
+    "title": "Agent as Policy 实机操作发布",
+    "url": "https://x.com/JillJia6/status/2100275532378317038",
+    "platform": "x",
+    "local_note": "x/x005.md",
+    "models": [
+      "GPT-6 Astra",
+      "Codex CLI"
+    ],
+    "tags": [
+      "Astra",
+      "RUA",
+      "real_robot",
+      "code_as_policy",
+      "long_horizon"
+    ],
+    "evidence_status": "primary_project_crosschecked"
+  },
+  {
+    "id": "x006",
+    "title": "Phillip Isola 讨论 Robot Use Agents",
+    "url": "https://x.com/phillip_isola/status/2097045136051933566",
+    "platform": "x",
+    "local_note": "x/x006.md",
+    "models": [
+      "Claude",
+      "Fable",
+      "Astra"
+    ],
+    "tags": [
+      "RUA",
+      "perspective",
+      "agent_interface"
+    ],
+    "evidence_status": "primary_project_crosschecked"
+  },
+  {
+    "id": "x007",
+    "title": "Sonnet 5.5 直接输出关节角触碰靶心",
+    "url": "https://x.com/ja_rothschild/status/2110980771280539700",
+    "platform": "x",
+    "local_note": "x/x007.md",
+    "models": [
+      "Claude Sonnet 5.5",
+      "Claude Code"
+    ],
+    "tags": [
+      "Sonnet",
+      "real_robot",
+      "joint_control",
+      "prompt"
+    ],
+    "evidence_status": "secondary_page_read"
+  },
+  {
+    "id": "x008",
+    "title": "Astra 用实体键盘学习打字",
+    "url": "https://x.com/kaiwynd/status/2098823484474348008",
+    "platform": "x",
+    "local_note": "x/x008.md",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "keyboard",
+      "visual_feedback"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "x009",
+    "title": "Astra 插入网线的人工介入记录",
+    "url": "https://x.com/kaiwynd/status/2099524132341711051",
+    "platform": "x",
+    "local_note": "x/x009.md",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "insertion",
+      "human_intervention"
+    ],
+    "evidence_status": "mirror_post_read"
+  },
+  {
+    "id": "x010",
+    "title": "ENPIRE 机器人上下文学习演示",
+    "url": "https://x.com/TongheZhang01/status/2097801107602911243",
+    "platform": "x",
+    "local_note": "x/x010.md",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "ICL",
+      "ENPIRE"
+    ],
+    "evidence_status": "mirror_post_read"
+  },
+  {
+    "id": "x011",
+    "title": "Vitrus OS 上适应新机器人",
+    "url": "https://x.com/lucascassiano/status/2097830777438486557",
+    "platform": "x",
+    "local_note": "x/x011.md",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "robot_os",
+      "online_adaptation"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "x012",
+    "title": "Astra 从视频迁移移动操作行为",
+    "url": "https://x.com/ax_pey/status/2098216469012283681",
+    "platform": "x",
+    "local_note": "x/x012.md",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "mobile_manipulation",
+      "ICL"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "x013",
+    "title": "Astra 机械臂绘制金门大桥",
+    "url": "https://x.com/cdngdev/status/2097339677128982873",
+    "platform": "x",
+    "local_note": "x/x013.md",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "painting",
+      "visual_feedback"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "x014",
+    "title": "Wenli Xiao 的视频条件机器人模仿",
+    "url": "https://x.com/_wenlixiao/status/2097801944119349455",
+    "platform": "x",
+    "local_note": "x/x014.md",
+    "models": [
+      "GPT-6 Astra",
+      "Codex"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "ICL",
+      "ENPIRE"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "x015",
+    "title": "RoboHarm 具身 agent 指令拒绝评测",
+    "url": "https://x.com/chooi_jeq/status/2101118049944543545",
+    "platform": "x",
+    "local_note": "x/x015.md",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5.1",
+      "MolmoAct2"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "VLA",
+      "real_robot",
+      "safety_evaluation"
+    ],
+    "evidence_status": "primary_project_crosschecked"
+  },
+  {
+    "id": "reddit-001",
+    "title": "Opus 5.5 通过工具调用控制 SO-101 对齐积木",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgyzff/i_gave_claude_control_of_my_real_robot/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-001.md",
+    "models": [
+      "Claude Code",
+      "Opus 5.5"
+    ],
+    "tags": [
+      "SO-101",
+      "tool-use",
+      "Opus",
+      "skills"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-002",
+    "title": "Astra 与 Fable 5.1 工业机械臂工作站",
+    "url": "https://www.reddit.com/r/robotics/comments/1weqsxr/using_astrafable51_agents_to_make_a_useful/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-002.md",
+    "models": [
+      "Astra",
+      "Fable 5.1",
+      "Claude"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "industrial-arm",
+      "hardware-design"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-003",
+    "title": "Dum-E 机械臂技能覆盖诊断 调参与动作编排",
+    "url": "https://www.reddit.com/r/claude/comments/1ud1b38/weekend_build_an_so101_arm_a_claude_code_skill/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-003.md",
+    "models": [
+      "Claude Code"
+    ],
+    "tags": [
+      "SO-101",
+      "Claude-Code",
+      "skills",
+      "diagnostics"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-004",
+    "title": "Fable 5.2 自行编写控制器并用机械臂画自画像",
+    "url": "https://www.reddit.com/r/accelerate/comments/1xve8o4/i_asked_fable_52_to_paint_a_selfportrait_with_a/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-004.md",
+    "models": [
+      "Fable 5.2"
+    ],
+    "tags": [
+      "Fable",
+      "painting",
+      "SSH",
+      "self-calibration"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-005",
+    "title": "Fable 5.2 自编程序完成工厂机械臂任务",
+    "url": "https://www.reddit.com/r/ClaudeMCP/comments/1xyqv5g/claude_fable_wrote_its_own_code_to_control_a/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-005.md",
+    "models": [
+      "Claude Fable 5.2"
+    ],
+    "tags": [
+      "Fable",
+      "industrial-arm",
+      "code-generation"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-006",
+    "title": "Claude Code 通过 MCP 控制 Franka Panda",
+    "url": "https://www.reddit.com/r/claudexplorers/comments/1qzol47/claude_code_controlling_a_robot_arm_with_an_mcp/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-006.md",
+    "models": [
+      "Claude Code"
+    ],
+    "tags": [
+      "Franka",
+      "MCP",
+      "Claude-Code",
+      "data-collection"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-007",
+    "title": "同一 SO-101 上比较 Fable 5.1 与 Astra 涂色",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-007.md",
+    "models": [
+      "Claude Fable 5.1",
+      "GPT 6 Astra"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "SO-101",
+      "painting",
+      "comparison"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-008",
+    "title": "Fable 5 通过 API 控制树莓派机器人身体",
+    "url": "https://www.reddit.com/r/raspberry_pi/comments/1ulu0hf/i_built_a_robotic_body_controlled_by_claude_fable/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-008.md",
+    "models": [
+      "Claude Fable 5"
+    ],
+    "tags": [
+      "Fable",
+      "Raspberry-Pi",
+      "vision",
+      "API-control"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-009",
+    "title": "Gemini 3.0 通过逐步视觉观察完成清桌抓放",
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1pms77x/robotic_arm_controlled_by_gemini_30/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-009.md",
+    "models": [
+      "Gemini 3.0",
+      "Gemini 1.5 ER（原帖称呼）"
+    ],
+    "tags": [
+      "Gemini",
+      "VLM",
+      "pick-and-place",
+      "closed-loop"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-010",
+    "title": "Fable 5.2 机器人演示的社区技术质疑",
+    "url": "https://www.reddit.com/r/robotics/comments/1xs1bu6/fable_52_shows_substantially_improved_skills_in/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-010.md",
+    "models": [
+      "Fable 5.2"
+    ],
+    "tags": [
+      "Fable",
+      "benchmark",
+      "latency",
+      "failure-recovery"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-011",
+    "title": "Astra 规划绘画并编排整套机械臂工作室",
+    "url": "https://www.reddit.com/r/singularity/comments/1xi0o38/gpt6_astra_painted_this_on_a_real_robot_arm_then/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-011.md",
+    "models": [
+      "GPT-6 Astra",
+      "Codex",
+      "Claude"
+    ],
+    "tags": [
+      "Astra",
+      "painting",
+      "digital-twin",
+      "tool-orchestration"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-012",
+    "title": "LLM 通过 MCP 和 ROS2 控制 Unitree Go2",
+    "url": "https://www.reddit.com/r/robotics/comments/1kil1tj/unitree_go2_mcp_server/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-012.md",
+    "models": [
+      "LLM（未指定）"
+    ],
+    "tags": [
+      "Unitree-Go2",
+      "MCP",
+      "ROS2",
+      "natural-language"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-013",
+    "title": "ROS MCP Server 连接 Claude GPT Gemini 与实体机器人",
+    "url": "https://www.reddit.com/r/robotics/comments/1ndegna/ros_mcp_server_release/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-013.md",
+    "models": [
+      "Claude",
+      "GPT",
+      "Gemini"
+    ],
+    "tags": [
+      "MCP",
+      "ROS",
+      "Claude",
+      "Gemini",
+      "tool-use"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-014",
+    "title": "OpenAI agent SDK 通过 ROS2 控制实体 CNC 绘图机",
+    "url": "https://www.reddit.com/r/ROS/comments/1r67511/i_built_a_ros2controlled_cnc_plotter_that_takes/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-014.md",
+    "models": [
+      "LLM（未指定）",
+      "OpenAI agent SDK"
+    ],
+    "tags": [
+      "ROS2",
+      "OpenAI-Agent-SDK",
+      "CNC",
+      "GRBL",
+      "tool-use"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-015",
+    "title": "Astra 机械臂画金门桥的 Reddit 转发",
+    "url": "https://www.reddit.com/r/singularity/comments/1wb4brl/embodied_astra_paints_the_golden_gate_bridge/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-015.md",
+    "models": [
+      "Astra"
+    ],
+    "tags": [
+      "Astra",
+      "painting",
+      "X-cross-reference"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "reddit-016",
+    "title": "AgenticROS 连接 Claude 与 RealSense 轮式机器人",
+    "url": "https://www.reddit.com/r/robotics/comments/1uliymn/chris_matthieu_hacks_on_physical_ai_live_using/",
+    "platform": "reddit",
+    "local_note": "reddit/reddit-016.md",
+    "models": [
+      "OpenClaw",
+      "Claude AI Agents"
+    ],
+    "tags": [
+      "ROS",
+      "AgenticROS",
+      "RealSense",
+      "mobile-robot"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "zhihu_001",
+    "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
+    "url": "https://zhuanlan.zhihu.com/p/2085370008419550258",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_001.md",
+    "models": [
+      "GPT-6 Astra",
+      "VLA"
+    ],
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "VLA"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_002",
+    "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
+    "url": "https://zhuanlan.zhihu.com/p/2076669898638598653",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_002.md",
+    "models": [
+      "Claude"
+    ],
+    "tags": [
+      "中文讨论",
+      "Claude"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "zhihu_003",
+    "title": "刚刚，机器人界王者归来！「神级硬件」带飞GPT-6，三大新品震撼掀桌",
+    "url": "https://zhuanlan.zhihu.com/p/2088248610190373737",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_003.md",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5.1"
+    ],
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "Claude Fable 5.1"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_004",
+    "title": "三榜第一，完胜GPT-6！中国物理RSI杀出黑马",
+    "url": "https://zhuanlan.zhihu.com/p/2086434091696665194",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_004.md",
+    "models": [
+      "GPT-6 Astra",
+      "GLOW"
+    ],
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "GLOW"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_005",
+    "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+    "url": "https://zhuanlan.zhihu.com/p/2091852082328368819",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_005.md",
+    "models": [
+      "VPP2",
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "中文讨论",
+      "VPP2",
+      "GPT-6 Astra"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_006",
+    "title": "60分靠数据，100分靠自进化：清华曹婷和「域变换」攻向机器人可部署",
+    "url": "https://zhuanlan.zhihu.com/p/2081046068779807928",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_006.md",
+    "models": [
+      "Zetta ζ",
+      "Zeva"
+    ],
+    "tags": [
+      "中文讨论",
+      "Zetta ζ",
+      "Zeva"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_007",
+    "title": "马斯克再暗示合并特斯拉和 SpaceX；传 iPhone 18 Pro 系列卖爆；大疆 Pocket 4P「珠光白」3799 开售｜极客早知道",
+    "url": "https://zhuanlan.zhihu.com/p/2083831003857019811",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_007.md",
+    "models": [
+      "GPT-6 Astra",
+      "π0.5"
+    ],
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "π0.5"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_008",
+    "title": "OpenAI 和 Anthropic，正在抢夺「AI 硬件」定义权",
+    "url": "https://zhuanlan.zhihu.com/p/2078119368840561414",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_008.md",
+    "models": [
+      "Claude"
+    ],
+    "tags": [
+      "中文讨论",
+      "Claude"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_009",
+    "title": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱",
+    "url": "https://zhuanlan.zhihu.com/p/2082787698893383667",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_009.md",
+    "models": [
+      "PhysBrain 1.5",
+      "GPT-6 Astra",
+      "Gemini Robotics"
+    ],
+    "tags": [
+      "中文讨论",
+      "PhysBrain 1.5",
+      "GPT-6 Astra",
+      "Gemini Robotics"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "zhihu_010",
+    "title": "宇树科技 8 月 10 日开启 IPO 申购；字节 ToB 变阵：飞书豆包火山组织调整；马斯克称人类 5-7 年登陆火星 | 极客早知道",
+    "url": "https://zhuanlan.zhihu.com/p/2066454344422135169",
+    "platform": "zhihu",
+    "local_note": "zhihu/zhihu_010.md",
+    "models": [
+      "Gemini Robotics ER 2"
+    ],
+    "tags": [
+      "中文讨论",
+      "Gemini Robotics ER 2"
+    ],
+    "evidence_status": "snippet_only"
+  },
+  {
+    "id": "blog_001",
+    "title": "Robot-Use Agents",
+    "url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+    "platform": "blogs",
+    "local_note": "blogs/blog_001.md",
+    "models": [
+      "Claude",
+      "Fable",
+      "Astra"
+    ],
+    "tags": [
+      "RUA",
+      "范式",
+      "必读"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_002",
+    "title": "How Should We Use LLMs for Robot Control?",
+    "url": "https://www.withplayground.ai/research/how-should-we-use-llms-for-robot-control",
+    "platform": "blogs",
+    "local_note": "blogs/blog_002.md",
+    "models": [
+      "Claude Fable 5.2",
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Fable",
+      "Astra",
+      "代码策略",
+      "基准"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_003",
+    "title": "Are Astra, Fable 5.1 and Opus 5.5 ready for science lab tasks?",
+    "url": "https://www.mecka.ai/blog/wetlab",
+    "platform": "blogs",
+    "local_note": "blogs/blog_003.md",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5.1",
+      "Claude Opus 5.5"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "Opus",
+      "实机",
+      "实验室"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_004",
+    "title": "Claude plays robotics",
+    "url": "https://www.anthropic.com/research/claude-plays-robotics",
+    "platform": "blogs",
+    "local_note": "blogs/blog_004.md",
+    "models": [
+      "Claude Opus 4.5",
+      "Claude Opus 4.6",
+      "Claude Opus 4.7",
+      "Claude Mythos Preview"
+    ],
+    "tags": [
+      "Opus",
+      "实机",
+      "仿真",
+      "接口"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_005",
+    "title": "Project Fetch: Phase two",
+    "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+    "platform": "blogs",
+    "local_note": "blogs/blog_005.md",
+    "models": [
+      "Claude Opus 4.7",
+      "Claude Code"
+    ],
+    "tags": [
+      "Opus",
+      "Claude Code",
+      "机器狗"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_006",
+    "title": "Previewing the Model Hardware Standard",
+    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "platform": "blogs",
+    "local_note": "blogs/blog_006.md",
+    "models": [
+      "Claude"
+    ],
+    "tags": [
+      "接口",
+      "MCP",
+      "硬件工具"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_007",
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "platform": "blogs",
+    "local_note": "blogs/blog_007.md",
+    "models": [
+      "Claude Fable 5.2",
+      "Claude Fable 5.1",
+      "Claude Opus 5.5",
+      "GPT-6 Astra"
+    ],
+    "tags": [
+      "Fable",
+      "Opus",
+      "Astra",
+      "实机",
+      "RoboDojo"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_008",
+    "title": "Introducing Waddle: agents that control robots",
+    "url": "https://www.waddlelabs.ai/research/introducing-waddle",
+    "platform": "blogs",
+    "local_note": "blogs/blog_008.md",
+    "models": [
+      "LLM agents"
+    ],
+    "tags": [
+      "RUA",
+      "代码策略",
+      "VLA",
+      "实机"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_009",
+    "title": "GPT-6 Astra on robotic manipulation",
+    "url": "https://openai.robocurve.org/gpt-6-astra/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_009.md",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5",
+      "Claude Fable 5.1"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "实机",
+      "基准"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_010",
+    "title": "Comparing Fable 5.1 to Fable 5 on robotic manipulation",
+    "url": "https://anthropic.robocurve.org/fable-5.1/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_010.md",
+    "models": [
+      "Claude Fable 5",
+      "Claude Fable 5.1"
+    ],
+    "tags": [
+      "Fable",
+      "实机",
+      "可回放"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_011",
+    "title": "Claude as a Robot Teacher",
+    "url": "https://irvin.quest/distilling-zero-shot-control/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_011.md",
+    "models": [
+      "Claude Opus",
+      "Claude Code"
+    ],
+    "tags": [
+      "Opus",
+      "world model",
+      "蒸馏",
+      "实机"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_012",
+    "title": "ChatGPT for Robotics: Design Principles and Model Abilities",
+    "url": "https://www.microsoft.com/en-us/research/articles/chatgpt-for-robotics/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_012.md",
+    "models": [
+      "ChatGPT"
+    ],
+    "tags": [
+      "ChatGPT",
+      "历史脉络",
+      "代码生成"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_013",
+    "title": "Robots That Write Their Own Code",
+    "url": "https://www.research.google/blog/robots-that-write-their-own-code/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_013.md",
+    "models": [
+      "代码语言模型"
+    ],
+    "tags": [
+      "CaP",
+      "代码策略",
+      "历史脉络"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_014",
+    "title": "Gemini Robotics 1.5 brings AI agents into the physical world",
+    "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_014.md",
+    "models": [
+      "Gemini Robotics 1.5",
+      "Gemini Robotics-ER 1.5"
+    ],
+    "tags": [
+      "Gemini",
+      "VLA",
+      "分层控制"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_015",
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_015.md",
+    "models": [
+      "Gemini Robotics-ER 1.6"
+    ],
+    "tags": [
+      "Gemini",
+      "具身推理",
+      "成功检测"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_016",
+    "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "platform": "blogs",
+    "local_note": "blogs/blog_016.md",
+    "models": [
+      "Gemini Robotics 2",
+      "Gemini Robotics ER 2",
+      "Gemini Robotics On-Device 2"
+    ],
+    "tags": [
+      "Gemini",
+      "人形机器人",
+      "VLA"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_017",
+    "title": "π0.5: a VLA with Open-World Generalization",
+    "url": "https://www.pi.website/blog/pi05",
+    "platform": "blogs",
+    "local_note": "blogs/blog_017.md",
+    "models": [
+      "π0.5"
+    ],
+    "tags": [
+      "基模",
+      "VLA",
+      "泛化"
+    ],
+    "evidence_status": "page_read"
+  },
+  {
+    "id": "blog_018",
+    "title": "PB27 — Paintings by coding agents",
+    "url": "https://dhvanil.com/pb27",
+    "platform": "blogs",
+    "local_note": "blogs/blog_018.md",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Opus",
+      "Claude Fable",
+      "Codex",
+      "Claude Code"
+    ],
+    "tags": [
+      "Astra",
+      "Opus",
+      "Fable",
+      "绘画",
+      "实机"
+    ],
+    "evidence_status": "page_read"
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "id": "x001",
+    "title": "Fable 5.2 官方实机机器人演示",
+    "url": "https://x.com/claudeai/status/2119867132452221045",
+    "author": "Claude @claudeai",
+    "published_at": "2026-11-09",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "Claude Fable 5.2"
+    ],
+    "robot": "实机机械臂；另含模拟双臂 benchmark",
+    "control_layer": "基础模型控制机器人",
+    "summary_zh": "官方帖子介绍 Fable 5.2 的机器人能力。同日官博列举拧瓶盖、解谜方块和绘图等实机演示，并单独报告 RoboDojo 仿真成绩。适合追踪通用基模向物理动作迁移。",
+    "evidence_status": "primary_project_crosschecked",
+    "evidence_urls": [
+      "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "https://www.techmeme.com/261110/h0425",
+      "https://feeds.libsyn.com/469701/website/claude-just-leveled-up-nvidias-ceo-did-not"
+    ],
+    "limitations": [
+      "原帖 403，帖子链接由公开聚合来源确认；技术内容用官方博客核对。",
+      "RoboDojo 数字来自内部仿真运行，不能充当实机成功率。"
+    ],
+    "tags": [
+      "Fable",
+      "official",
+      "real_robot",
+      "simulation_benchmark"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x001.md",
+    "note_file": "x001.md"
+  },
+  {
+    "id": "x002",
+    "title": "Opus 5.5 与 Astra 用同一机械臂写字",
+    "url": "https://x.com/ArtificialAnlys/status/2115567357506748492",
+    "author": "Artificial Analysis @ArtificialAnlys",
+    "published_at": "2026-10-28",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "Claude Opus 5.5",
+      "GPT-6 Astra"
+    ],
+    "robot": "Hiwonder NexArm",
+    "control_layer": "编码 agent 经 HTTP API 控制关节",
+    "summary_zh": "AA 展示同一机器人写 hello world：帖子称 Opus 使用点画动作，Astra 使用连续笔画。公开镜像保留动作次数与耗时；AA 原始报告说明四路相机和 HTTP 机器人接口。",
+    "evidence_status": "mirror_post_read_and_primary_crosschecked",
+    "evidence_urls": [
+      "https://teapawt.org/ArtificialAnlys/status/2115567357506748492",
+      "https://artificialanalysis.ai/articles/aa-robotics"
+    ],
+    "limitations": [
+      "读取了公开镜像与原始报告，未直接读取 X 页面。",
+      "这是所展示运行的比较，不能外推成所有机器人任务的效率排名。"
+    ],
+    "tags": [
+      "Opus",
+      "Astra",
+      "real_robot",
+      "writing",
+      "benchmark"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x002.md",
+    "note_file": "x002.md"
+  },
+  {
+    "id": "x003",
+    "title": "Astra 与 Fable 的方块入碗评测",
+    "url": "https://x.com/chooi_jeq/status/2096064315115839904",
+    "author": "Jay Chooi @chooi_jeq",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5",
+      "Claude Fable 5.1"
+    ],
+    "robot": "I2RT YAM 双臂",
+    "control_layer": "agent 输出末端位姿，IK 执行",
+    "summary_zh": "Jay Chooi 发布 Astra 控制机器人评测。原始报告中，方块入碗为 Astra 19/20、Fable 5.1 8/20；但拼图插入两者均为 2/20。结果适合观察语义理解与接触操作之间的差距。",
+    "evidence_status": "primary_project_crosschecked",
+    "evidence_urls": [
+      "https://openai.robocurve.org/gpt-6-astra/",
+      "https://jilbab.twstalker.com/DozenDucc"
+    ],
+    "limitations": [
+      "X 发布日期未独立核实；报告日期为 2026-09-04。",
+      "入碗试验的机器人台架不同，运行非交错，且人工评分者知道模型身份。"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "real_robot",
+      "pick_and_place",
+      "benchmark"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x003.md",
+    "note_file": "x003.md"
+  },
+  {
+    "id": "x004",
+    "title": "StationeryBench 双臂文具操作",
+    "url": "https://x.com/chooi_jeq/status/2098427488787730636",
+    "author": "Jay Chooi @chooi_jeq",
+    "published_at": "2026-09-11",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra",
+      "MolmoAct2"
+    ],
+    "robot": "I2RT YAM 双臂",
+    "control_layer": "agent 末端位姿与 VLA 动作比较",
+    "summary_zh": "帖子链接指向双臂文具操作评测。原始报告包含拔笔帽、倒回形针、双臂递尺等五类任务、200 次试验；Astra 完整完成 7/100，MolmoAct2 为 0/100，平均进度分另计。",
+    "evidence_status": "primary_project_crosschecked",
+    "evidence_urls": [
+      "https://openai.robocurve.org/stationerybench/",
+      "https://github.com/kairunwen/Awesome-Robot-Use-Agent"
+    ],
+    "limitations": [
+      "日期与 X 链接来自 awesome 索引；原始报告日期为 2026-09-10。",
+      "46 对 12 是进度分，不是成功率；模型接口、训练分布与预算不同。"
+    ],
+    "tags": [
+      "Astra",
+      "VLA",
+      "real_robot",
+      "bimanual",
+      "benchmark"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x004.md",
+    "note_file": "x004.md"
+  },
+  {
+    "id": "x005",
+    "title": "Agent as Policy 实机操作发布",
+    "url": "https://x.com/JillJia6/status/2100275532378317038",
+    "author": "Mengzhao Jia @JillJia6",
+    "published_at": "2026-09-17",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra",
+      "Codex CLI"
+    ],
+    "robot": "YAM 机械臂",
+    "control_layer": "通用 agent 观察、写程序、动作与验证闭环",
+    "summary_zh": "AGP 让通用 agent 利用视觉反馈编写控制程序，并在执行过程中修正动作。项目展示装配、积木、骰子翻转、定点抛掷和双臂叠毛巾，提供任务视频和执行轨迹。",
+    "evidence_status": "primary_project_crosschecked",
+    "evidence_urls": [
+      "https://agent-as-policy-2026.github.io/",
+      "https://github.com/kairunwen/Awesome-Robot-Use-Agent"
+    ],
+    "limitations": [
+      "X 日期由 awesome 索引提供；论文日期与发帖日期不同。",
+      "单段发布视频不是全部试验；项目页另有失败记录和时间成本。"
+    ],
+    "tags": [
+      "Astra",
+      "RUA",
+      "real_robot",
+      "code_as_policy",
+      "long_horizon"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x005.md",
+    "note_file": "x005.md"
+  },
+  {
+    "id": "x006",
+    "title": "Phillip Isola 讨论 Robot Use Agents",
+    "url": "https://x.com/phillip_isola/status/2097045136051933566",
+    "author": "Phillip Isola @phillip_isola",
+    "published_at": "2026-09-07",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "Claude",
+      "Fable",
+      "Astra"
+    ],
+    "robot": "通用机器人接口",
+    "control_layer": "把机器人视为 agent 的传感器和执行器工具",
+    "summary_zh": "Isola 的帖子引出 Robot-Use Agents 文章：通用模型通过机器人 API 读取传感器并发出执行器命令，可能改变机器人智能的部署方式；文章同时指出延迟与可靠性仍限制应用。",
+    "evidence_status": "primary_project_crosschecked",
+    "evidence_urls": [
+      "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+      "https://jilbab.twstalker.com/DozenDucc"
+    ],
+    "limitations": [
+      "观点讨论，非新实机实验。",
+      "X 原帖未直接读取；博客为作者第一手全文。"
+    ],
+    "tags": [
+      "RUA",
+      "perspective",
+      "agent_interface"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x006.md",
+    "note_file": "x006.md"
+  },
+  {
+    "id": "x007",
+    "title": "Sonnet 5.5 直接输出关节角触碰靶心",
+    "url": "https://x.com/ja_rothschild/status/2110980771280539700",
+    "author": "Jacob H. Rothschild @ja_rothschild",
+    "published_at": "2026-10-16",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "Claude Sonnet 5.5",
+      "Claude Code"
+    ],
+    "robot": "带腕部和前视相机的六关节机械臂",
+    "control_layer": "关节角动作块",
+    "summary_zh": "作者公开机器人控制提示：Claude Code 子 agent 读取两路相机图像，写关节目标序列，执行触碰靶心再回原位的任务。聚合页面保存了 observe、play_chunk 和 home 接口说明。",
+    "evidence_status": "secondary_page_read",
+    "evidence_urls": [
+      "https://clauday.com/article/cbbbded0-f262-4012-a67a-30c3307cad66",
+      "https://teapawt.net/ja_rothschild"
+    ],
+    "limitations": [
+      "原帖 403；作者镜像检索摘要包含任务，但打开后的时间线未保留该条，具体接口据聚合页核对。",
+      "未核验视频和完整执行轨迹，成功是作者自述。"
+    ],
+    "tags": [
+      "Sonnet",
+      "real_robot",
+      "joint_control",
+      "prompt"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x007.md",
+    "note_file": "x007.md"
+  },
+  {
+    "id": "x008",
+    "title": "Astra 用实体键盘学习打字",
+    "url": "https://x.com/kaiwynd/status/2098823484474348008",
+    "author": "Kaifeng Zhang @kaiwynd",
+    "published_at": "2026-09-12",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "robot": "机械臂与实体键盘",
+    "control_layer": "视觉反馈与动作试错",
+    "summary_zh": "作者让 Astra 通过键盘表达内容，称约 40 分钟后学会打字，过程有误长按和退格。这类帖子体现从开放指令到实体按键动作的探索。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://www.teapaw.org/kaiwynd",
+      "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    ],
+    "limitations": [
+      "可读证据是镜像搜索摘要与 awesome 索引；打开后的镜像页面已滚动到更新帖子，未读到该帖全文。",
+      "视频标称 20 倍速；没有总体准确率。索引另有 9 月 13 日记法，本文采用可见作者镜像的 9 月 12 日。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "keyboard",
+      "visual_feedback"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x008.md",
+    "note_file": "x008.md"
+  },
+  {
+    "id": "x009",
+    "title": "Astra 插入网线的人工介入记录",
+    "url": "https://x.com/kaiwynd/status/2099524132341711051",
+    "author": "Kaifeng Zhang @kaiwynd",
+    "published_at": "2026-09-14",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "robot": "机械臂与网线接口",
+    "control_layer": "agent 规划与精细操作",
+    "summary_zh": "作者报告 Astra 完成网线插入用了约两小时和四次人工提示。帖子明确讨论柔性物体、精密装配和推理速度，是分析人工介入与耗时的重要案例。",
+    "evidence_status": "mirror_post_read",
+    "evidence_urls": [
+      "https://www.teapaw.org/kaiwynd"
+    ],
+    "limitations": [
+      "公开镜像时间线中读取到本帖；原 X 页面 403。",
+      "这是有人提示介入的演示，不能标作全程自主。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "insertion",
+      "human_intervention"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x009.md",
+    "note_file": "x009.md"
+  },
+  {
+    "id": "x010",
+    "title": "ENPIRE 机器人上下文学习演示",
+    "url": "https://x.com/TongheZhang01/status/2097801107602911243",
+    "author": "Tonghe Zhang @TongheZhang01",
+    "published_at": "2026-09-09",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "robot": "实机机械臂",
+    "control_layer": "agent 经 ENPIRE 机器人接口执行",
+    "summary_zh": "作者发布 Astra 通过 ENPIRE harness 做机器人上下文学习的演示，并指向可试用接口。与 Wenli Xiao 的视频条件模仿帖子属于同组实验线索。",
+    "evidence_status": "mirror_post_read",
+    "evidence_urls": [
+      "https://www.sotwe.com/TongheZhang01",
+      "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    ],
+    "limitations": [
+      "日期来自 awesome 索引；镜像只提供相对时间。",
+      "帖子中 zero-shot 的措辞不等于没有示范：这里讨论的是将示范作为上下文、无需任务训练。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "ICL",
+      "ENPIRE"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "experiment_cluster": "enpire_video_icl",
+    "local_file": "x010.md",
+    "note_file": "x010.md"
+  },
+  {
+    "id": "x011",
+    "title": "Vitrus OS 上适应新机器人",
+    "url": "https://x.com/lucascassiano/status/2097830777438486557",
+    "author": "Lucas Cassiano @lucascassiano",
+    "published_at": "2026-09-09",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "robot": "Vitrus 自定义机器人",
+    "control_layer": "agent 访问硬件与机器人 OS，含仿真自学",
+    "summary_zh": "作者称给 Astra 硬件和 Vitrus OS 访问后，它能控制此前未见的机器人，并借助物理仿真流程自学任务。该帖适合跟踪面向 agent 的机器人接口设计。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://www6.twstalker.com/lucascassiano",
+      "https://github.com/Akihisa-Watanabe/awesome-astra",
+      "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    ],
+    "limitations": [
+      "镜像搜索摘要能读到描述；打开后为新时间线，未定位原帖全文。",
+      "无 VLA、无人体数据等为作者声明，未独立核查训练来源或成功率。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "robot_os",
+      "online_adaptation"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x011.md",
+    "note_file": "x011.md"
+  },
+  {
+    "id": "x012",
+    "title": "Astra 从视频迁移移动操作行为",
+    "url": "https://x.com/ax_pey/status/2098216469012283681",
+    "author": "Axel @ax_pey",
+    "published_at": "2026-09-11",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "robot": "移动机械臂",
+    "control_layer": "在末端空间与关节空间之间选择",
+    "summary_zh": "作者展示从视频上下文推断移动操作任务，并声称可跨环境、视角和布局选择末端或关节动作表示。与固定台面机械臂相比，此例关注移动操作迁移。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://platform.twstalker.com/DDobas",
+      "https://github.com/Akihisa-Watanabe/awesome-astra",
+      "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    ],
+    "limitations": [
+      "可用内容是作者转帖的镜像搜索摘要和 awesome 索引；没有直接读取 X 原帖。",
+      "未验证跟帖承诺的 trace；没有汇总成功率。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "mobile_manipulation",
+      "ICL"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x012.md",
+    "note_file": "x012.md"
+  },
+  {
+    "id": "x013",
+    "title": "Astra 机械臂绘制金门大桥",
+    "url": "https://x.com/cdngdev/status/2097339677128982873",
+    "author": "thijs @cdngdev",
+    "published_at": "2026-09-08",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra"
+    ],
+    "robot": "SO-101 机械臂、画笔与相机",
+    "control_layer": "编码 agent 与视觉反馈",
+    "summary_zh": "作者给 Astra 机械臂、画笔和相机，让它画金门大桥；称模型自行摸索控制并随尝试改进。搜索索引中的作者跟帖说明使用借来的 SO-101，单幅耗时约一至三小时。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://nitter.jaydenha.uk/cdngdev/status/2097339677128982873",
+      "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    ],
+    "limitations": [
+      "搜索返回了镜像帖子及部分回复；直接打开 X 与镜像均 403，未读取完整原帖或视频。",
+      "视频为延时展示，不能推断实时闭环频率或总体成功率。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "painting",
+      "visual_feedback"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x013.md",
+    "note_file": "x013.md"
+  },
+  {
+    "id": "x014",
+    "title": "Wenli Xiao 的视频条件机器人模仿",
+    "url": "https://x.com/_wenlixiao/status/2097801944119349455",
+    "author": "Wenli Xiao @_wenlixiao",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra",
+      "Codex"
+    ],
+    "robot": "实机机械臂",
+    "control_layer": "人类视频作为上下文，agent 控制动作",
+    "summary_zh": "作者描述把人类执行新任务的录像交给 Codex，让 Astra 指挥机械臂模仿，并称展示任务首次尝试即成功。与 Tonghe Zhang 的 ENPIRE 帖子关联，保留两条帖用于追踪讨论链。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://www.sotwe.com/tonghezhang01?lang=en",
+      "https://www.reddit.com/r/accelerate/comments/1wd2xkw/gpt6_astra_just_does_physical_icl_out_of_the_box/",
+      "https://github.com/kairunwen/Awesome-Robot-Use-Agent"
+    ],
+    "limitations": [
+      "作者内容从镜像检索摘要和 Reddit 引用获知，未直接读取 X 原文。",
+      "Reddit 转帖日期 2026-09-11 不等于 X 发帖日期。与 x010 为同组实验线索，不能算独立复现。"
+    ],
+    "tags": [
+      "Astra",
+      "real_robot",
+      "ICL",
+      "ENPIRE"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "experiment_cluster": "enpire_video_icl",
+    "local_file": "x014.md",
+    "note_file": "x014.md"
+  },
+  {
+    "id": "x015",
+    "title": "RoboHarm 具身 agent 指令拒绝评测",
+    "url": "https://x.com/chooi_jeq/status/2101118049944543545",
+    "author": "Jay Chooi @chooi_jeq",
+    "published_at": "2026-09-19",
+    "accessed_at": "2026-11-23",
+    "platform": "x",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5.1",
+      "MolmoAct2"
+    ],
+    "robot": "I2RT YAM 双臂",
+    "control_layer": "agent policy 与 VLA 在实体任务中的行为评测",
+    "summary_zh": "RoboHarm 用五类不安全指令比较机器人策略，原始报告区分拒绝、未尝试、尝试失败与完成。该帖补充“能控制机器人”之外的行为约束研究线索。",
+    "evidence_status": "primary_project_crosschecked",
+    "evidence_urls": [
+      "https://robocurve.org/roboharm/",
+      "https://github.com/kairunwen/Awesome-Robot-Use-Agent"
+    ],
+    "limitations": [
+      "X 日期来自 awesome 索引，报告日期为 2026-09-18。",
+      "这里仅归档研究结论与来源，未保存危险操作细节；受控实验不等于实际伤害事件。"
+    ],
+    "tags": [
+      "Astra",
+      "Fable",
+      "VLA",
+      "real_robot",
+      "safety_evaluation"
+    ],
+    "original_access": "HTTP 403 Forbidden; original post text not read directly",
+    "archive_type": "中文摘要与来源元数据；不含完整原帖或视频",
+    "local_file": "x015.md",
+    "note_file": "x015.md"
+  }
+]

@@ -1,0 +1,198 @@
+{
+  "accessed_at": "2026-11-23",
+  "method": "web search plus opening Reddit page text; videos were not independently watched; date is client date Asia/Hong_Kong",
+  "queries": [
+    {
+      "queries": [
+        "site:reddit.com/r/robotics \"Claude\" robot arm",
+        "site:reddit.com \"Opus\" \"robot\" arm",
+        "site:reddit.com \"LLM\" \"robot arm\" \"built\"",
+        "site:reddit.com \"Astra\" \"robot\""
+      ],
+      "selected_ids": [
+        "reddit-001",
+        "reddit-002",
+        "reddit-003",
+        "reddit-005",
+        "reddit-006",
+        "reddit-016"
+      ],
+      "notes": "发现 Fable 自画像的 r/Anthropic 交叉贴，随后合并到较早的 r/accelerate 原贴。"
+    },
+    {
+      "queries": [
+        "site:reddit.com \"Fable\" \"robot\" \"control\"",
+        "site:reddit.com \"GPT6 Astra\" \"robot\"",
+        "site:reddit.com \"Gemini\" \"robot arm\" \"built\"",
+        "site:reddit.com \"ChatGPT\" \"robot\" \"control\" \"I built\""
+      ],
+      "selected_ids": [
+        "reddit-008",
+        "reddit-009",
+        "reddit-010"
+      ],
+      "notes": "排除主要为音频触发表情和 GPT 对话的 animatronic body 帖，以及尚未完成机器人控制的构想帖。"
+    },
+    {
+      "queries": [
+        "site:reddit.com/r/robotics \"LLM\" \"control\" \"MCP\"",
+        "site:reddit.com \"ChatGPT\" \"robot dog\" \"control\"",
+        "site:reddit.com \"Astra\" \"robot\" \"painting\"",
+        "site:reddit.com \"picohive\" \"Claude\""
+      ],
+      "selected_ids": [
+        "reddit-004",
+        "reddit-007",
+        "reddit-011",
+        "reddit-012",
+        "reddit-013",
+        "reddit-014",
+        "reddit-015"
+      ],
+      "notes": "通过交叉链接读取原帖，合并同一演示的重发。"
+    },
+    {
+      "queries": [
+        "site:reddit.com/r/raspberry_pi/comments/1ulu0hf",
+        "site:reddit.com/r/robotics/comments/1uliymn",
+        "site:reddit.com/r/robotics/comments/1r67684"
+      ],
+      "selected_ids": [
+        "reddit-016"
+      ],
+      "notes": "用于补查日期。只有 AgenticROS 返回明确 2026-07-02；其他检索噪声较大，未据此猜日期。CNC 日期来自 r/ROS 原帖页底的 Top posts 日期。"
+    }
+  ],
+  "opened_pages": [
+    {
+      "id": "reddit-001",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgyzff/i_gave_claude_control_of_my_real_robot/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-10-27"
+    },
+    {
+      "id": "reddit-002",
+      "url": "https://www.reddit.com/r/robotics/comments/1weqsxr/using_astrafable51_agents_to_make_a_useful/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-09-12"
+    },
+    {
+      "id": "reddit-003",
+      "url": "https://www.reddit.com/r/claude/comments/1ud1b38/weekend_build_an_so101_arm_a_claude_code_skill/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-06-22"
+    },
+    {
+      "id": "reddit-004",
+      "url": "https://www.reddit.com/r/accelerate/comments/1xve8o4/i_asked_fable_52_to_paint_a_selfportrait_with_a/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-11-13"
+    },
+    {
+      "id": "reddit-005",
+      "url": "https://www.reddit.com/r/ClaudeMCP/comments/1xyqv5g/claude_fable_wrote_its_own_code_to_control_a/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-11-17"
+    },
+    {
+      "id": "reddit-006",
+      "url": "https://www.reddit.com/r/claudexplorers/comments/1qzol47/claude_code_controlling_a_robot_arm_with_an_mcp/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-02-08"
+    },
+    {
+      "id": "reddit-007",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-09-14"
+    },
+    {
+      "id": "reddit-008",
+      "url": "https://www.reddit.com/r/raspberry_pi/comments/1ulu0hf/i_built_a_robotic_body_controlled_by_claude_fable/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": null
+    },
+    {
+      "id": "reddit-009",
+      "url": "https://www.reddit.com/r/GeminiAI/comments/1pms77x/robotic_arm_controlled_by_gemini_30/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2025-12-14"
+    },
+    {
+      "id": "reddit-010",
+      "url": "https://www.reddit.com/r/robotics/comments/1xs1bu6/fable_52_shows_substantially_improved_skills_in/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-11-09"
+    },
+    {
+      "id": "reddit-011",
+      "url": "https://www.reddit.com/r/singularity/comments/1xi0o38/gpt6_astra_painted_this_on_a_real_robot_arm_then/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-10-28"
+    },
+    {
+      "id": "reddit-012",
+      "url": "https://www.reddit.com/r/robotics/comments/1kil1tj/unitree_go2_mcp_server/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2025-05-09"
+    },
+    {
+      "id": "reddit-013",
+      "url": "https://www.reddit.com/r/robotics/comments/1ndegna/ros_mcp_server_release/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2025-09-10"
+    },
+    {
+      "id": "reddit-014",
+      "url": "https://www.reddit.com/r/ROS/comments/1r67511/i_built_a_ros2controlled_cnc_plotter_that_takes/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-02-16"
+    },
+    {
+      "id": "reddit-015",
+      "url": "https://www.reddit.com/r/singularity/comments/1wb4brl/embodied_astra_paints_the_golden_gate_bridge/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-09-08"
+    },
+    {
+      "id": "reddit-016",
+      "url": "https://www.reddit.com/r/robotics/comments/1uliymn/chris_matthieu_hacks_on_physical_ai_live_using/",
+      "status": "page_read",
+      "read_scope": "可访问的帖子正文与相关评论；并非所有折叠评论或视频",
+      "published_at": "2026-07-02"
+    }
+  ],
+  "access_issues": [
+    {
+      "url": "https://www.reddit.com/r/robotics/comments/1kil1tj",
+      "status": "cache_miss",
+      "resolution": "添加从标题对应的完整 slug 后可读取原帖正文。"
+    },
+    {
+      "url": "https://x.com/cdngdev/status/2097339677128982873",
+      "status": "403",
+      "resolution": "保留 Reddit 对该原始 X 的明确链接与归因，不声称直接核实 X 正文。"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c6vFLB2gQ34",
+      "status": "cache_miss",
+      "resolution": "仅依据 Reddit 正文摘要；未观看视频。"
+    }
+  ],
+  "date_caution": "部分搜索结果显示具体发帖日期，而打开页显示缓存相对时间，二者不总一致。保留明确索引日期并标注来源，不用相对时间反算；无法确认的日期设 null。模型名称按原帖记录，不独立确认其官方命名或发布状态。"
+}

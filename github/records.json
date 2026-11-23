@@ -1,0 +1,295 @@
+[
+  {
+    "id": "github-001",
+    "title": "kairunwen/Awesome-Robot-Use-Agent",
+    "url": "https://github.com/kairunwen/Awesome-Robot-Use-Agent",
+    "platform": "github",
+    "author": "kairunwen",
+    "accessed_at": "2026-11-23",
+    "category": "核心 RUA",
+    "summary_zh": "直接围绕 Robot Use Agent 汇集论文、博客、工具、基准和社交演示，是本次资料的首要入口。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/kairunwen/Awesome-Robot-Use-Agent"
+    ],
+    "local_path": "github/repos/kairunwen__Awesome-Robot-Use-Agent",
+    "readme_path": "github/repos/kairunwen__Awesome-Robot-Use-Agent/README.md",
+    "clone_type": "shallow",
+    "commit": "566ed8a2a874694e8034004ca5466a28ff9a657f",
+    "commit_date": "2026-11-17T12:33:14+08:00",
+    "branch": "main",
+    "remote": "https://github.com/kairunwen/Awesome-Robot-Use-Agent.git",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "b3626db62397cef17afbfe98e503a7467c66c1ae77b0afa001ca0ae8d989e715",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-002",
+    "title": "zjwzcx/Awesome-Astra-Embodied-AI",
+    "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+    "platform": "github",
+    "author": "zjwzcx",
+    "accessed_at": "2026-11-23",
+    "category": "核心 Astra",
+    "summary_zh": "聚焦 GPT-6 Astra 的具身工作流，区分真机、仿真、策略调用、数据回放和训练环境。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+    ],
+    "local_path": "github/repos/zjwzcx__Awesome-Astra-Embodied-AI",
+    "readme_path": "github/repos/zjwzcx__Awesome-Astra-Embodied-AI/README.md",
+    "clone_type": "shallow",
+    "commit": "5f7aa7bcded315d05dfb9d4d473024648bc6cf94",
+    "commit_date": "2026-10-28T16:01:25+08:00",
+    "branch": "main",
+    "remote": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI.git",
+    "license": null,
+    "license_files": [],
+    "readme_sha256": "45e01723cdfd1abe4df9785d3d82dd6107574402e4bbd4c893e9976fecdf51c3",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。 未在仓库根目录发现许可证文件。"
+  },
+  {
+    "id": "github-003",
+    "title": "harooos/awesome-coding-agents-for-robot-learning",
+    "url": "https://github.com/harooos/awesome-coding-agents-for-robot-learning",
+    "platform": "github",
+    "author": "harooos",
+    "accessed_at": "2026-11-23",
+    "category": "核心 coding agent",
+    "summary_zh": "围绕 coding agent 操作机器人、生成策略代码、构建环境、评估和改进策略组织资料。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/harooos/awesome-coding-agents-for-robot-learning"
+    ],
+    "local_path": "github/repos/harooos__awesome-coding-agents-for-robot-learning",
+    "readme_path": "github/repos/harooos__awesome-coding-agents-for-robot-learning/README.md",
+    "clone_type": "shallow",
+    "commit": "7b3505e73983a58260658e39908d0847a7264c6f",
+    "commit_date": "2026-10-30T22:45:48+08:00",
+    "branch": "main",
+    "remote": "https://github.com/harooos/awesome-coding-agents-for-robot-learning.git",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "2d770304eec0b0a725e3a7189050e212cf99ed1b7a80e7b5ba176d01d469804e",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-004",
+    "title": "benchflow-ai/awesome-embodied-agents",
+    "url": "https://github.com/benchflow-ai/awesome-embodied-agents",
+    "platform": "github",
+    "author": "benchflow-ai",
+    "accessed_at": "2026-11-23",
+    "category": "核心 agent policy",
+    "summary_zh": "覆盖 agent 作为机器人策略的执行接口、模型与评测；条目附有评测条件和实现链接。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/benchflow-ai/awesome-embodied-agents"
+    ],
+    "local_path": "github/repos/benchflow-ai__awesome-embodied-agents",
+    "readme_path": "github/repos/benchflow-ai__awesome-embodied-agents/README.md",
+    "clone_type": "shallow",
+    "commit": "ba7d64b9d17fa39ce71d249ec8f54891ab83a357",
+    "commit_date": "2026-10-23T00:10:05-07:00",
+    "branch": "main",
+    "remote": "https://github.com/benchflow-ai/awesome-embodied-agents.git",
+    "license": "CC0-1.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "631656739f4ddeeee673d8fc2d2b0a46395ad09d8ed924b9527f32d5825a3c42",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-005",
+    "title": "chonghanqin/Awesome-Agentic-Robots",
+    "url": "https://github.com/chonghanqin/Awesome-Agentic-Robots",
+    "platform": "github",
+    "author": "chonghanqin",
+    "accessed_at": "2026-11-23",
+    "category": "核心 agentic robotics",
+    "summary_zh": "Towards Agentic Robots 综述配套仓库，按模型、数据、环境和执行框架组织研究。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/chonghanqin/Awesome-Agentic-Robots"
+    ],
+    "local_path": "github/repos/chonghanqin__Awesome-Agentic-Robots",
+    "readme_path": "github/repos/chonghanqin__Awesome-Agentic-Robots/README.md",
+    "clone_type": "shallow",
+    "commit": "2b8da6dbdf687e49c0e94dbf238f0bfd4bed57a0",
+    "commit_date": "2026-11-20T23:10:18+08:00",
+    "branch": "main",
+    "remote": "https://github.com/chonghanqin/Awesome-Agentic-Robots.git",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "503dee981b36d314ce4ce737d97ff68973f8aa321d081acdeca43e682dd87f5f",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-006",
+    "title": "Lin-Murphy/Awesome-Robot-Agents",
+    "url": "https://github.com/Lin-Murphy/Awesome-Robot-Agents",
+    "platform": "github",
+    "author": "Lin-Murphy",
+    "accessed_at": "2026-11-23",
+    "category": "核心机械臂 agent",
+    "summary_zh": "聚焦机器人操作，记录模型决策、执行接口、实现和演示的来源，包含 Astra 实机项目。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/Lin-Murphy/Awesome-Robot-Agents"
+    ],
+    "local_path": "github/repos/Lin-Murphy__Awesome-Robot-Agents",
+    "readme_path": "github/repos/Lin-Murphy__Awesome-Robot-Agents/README.md",
+    "clone_type": "shallow",
+    "commit": "ca9db28e4eeb33de65907bc0b9c61302c686a2c1",
+    "commit_date": "2026-10-01T12:00:46+01:00",
+    "branch": "main",
+    "remote": "https://github.com/Lin-Murphy/Awesome-Robot-Agents.git",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "ad23be8bb53a18adde4bc312741f0e1b8ceb0bc6a45c49aa621199a3e2b28108",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-007",
+    "title": "GT-RIPL/Awesome-LLM-Robotics",
+    "url": "https://github.com/GT-RIPL/Awesome-LLM-Robotics",
+    "platform": "github",
+    "author": "GT-RIPL",
+    "accessed_at": "2026-11-23",
+    "category": "基础 LLM robotics",
+    "summary_zh": "汇总语言与多模态模型在机器人推理、规划、操作、导航及强化学习中的研究。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/GT-RIPL/Awesome-LLM-Robotics"
+    ],
+    "local_path": "github/repos/GT-RIPL__Awesome-LLM-Robotics",
+    "readme_path": "github/repos/GT-RIPL__Awesome-LLM-Robotics/README.md",
+    "clone_type": "shallow",
+    "commit": "cf3ae761787adbb3fd0245c175bce5df88dc0c34",
+    "commit_date": "2026-10-29T00:41:09-04:00",
+    "branch": "main",
+    "remote": "https://github.com/GT-RIPL/Awesome-LLM-Robotics.git",
+    "license": "BSD-3-Clause",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "de376611cdd905e394bd2427ed8084fa84f90c9087fb13ea259ebfb38c273141",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-008",
+    "title": "zchoi/Awesome-Embodied-Robotics-and-Agent",
+    "url": "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent",
+    "platform": "github",
+    "author": "zchoi",
+    "accessed_at": "2026-11-23",
+    "category": "扩展 embodied agents",
+    "summary_zh": "覆盖 VLM、LLM、VLA、规划、导航及自演化等具身研究，也包含部分游戏和数字环境工作。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent"
+    ],
+    "local_path": "github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent",
+    "readme_path": "github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent/README.md",
+    "clone_type": "shallow",
+    "commit": "3d7f742c95d6132a7226563147124b141e8d1729",
+    "commit_date": "2026-11-22T11:38:14+08:00",
+    "branch": "main",
+    "remote": "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent.git",
+    "license": "Apache-2.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "c053485a0a10962d18e82bbc1581c7e0fe5998cb23d8566e3cb9db8e41c7bf6c",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-009",
+    "title": "Neal2020GitHub/awesome-embodied-agents",
+    "url": "https://github.com/Neal2020GitHub/awesome-embodied-agents",
+    "platform": "github",
+    "author": "Neal2020GitHub",
+    "accessed_at": "2026-11-23",
+    "category": "扩展 embodied agents",
+    "summary_zh": "从记忆、推理、规划、主动感知、导航和操作等维度整理 VLM/LLM 具身 agent。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/Neal2020GitHub/awesome-embodied-agents"
+    ],
+    "local_path": "github/repos/Neal2020GitHub__awesome-embodied-agents",
+    "readme_path": "github/repos/Neal2020GitHub__awesome-embodied-agents/README.md",
+    "clone_type": "shallow",
+    "commit": "5df1e7643f50bba67f952353c36cfaf8882dba85",
+    "commit_date": "2026-05-21T14:56:59+08:00",
+    "branch": "main",
+    "remote": "https://github.com/Neal2020GitHub/awesome-embodied-agents.git",
+    "license": "MIT",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "8b675d1c55bd442ba97e3a7a6317c96acb7564e7bd75a202a063dc77916ad9f1",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  },
+  {
+    "id": "github-010",
+    "title": "cagbal/awesome-foundation-models-for-robotics",
+    "url": "https://github.com/cagbal/awesome-foundation-models-for-robotics",
+    "platform": "github",
+    "author": "cagbal",
+    "accessed_at": "2026-11-23",
+    "category": "基础模型",
+    "summary_zh": "按模型整理机器人基础模型及输入输出模态，便于补充 VLA 与通用 agent 的技术背景。维护者提示条目可能含 AI 辅助整理错误。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/cagbal/awesome-foundation-models-for-robotics"
+    ],
+    "local_path": "github/repos/cagbal__awesome-foundation-models-for-robotics",
+    "readme_path": "github/repos/cagbal__awesome-foundation-models-for-robotics/README.md",
+    "clone_type": "shallow",
+    "commit": "8a4d2e2543e52470db69ea8bb3e35c7139036499",
+    "commit_date": "2026-09-18T10:59:13+02:00",
+    "branch": "main",
+    "remote": "https://github.com/cagbal/awesome-foundation-models-for-robotics.git",
+    "license": null,
+    "license_files": [],
+    "readme_sha256": "5bf7a65fae6591380ce39ffdde71336368fd16fc7cb8f6296cb92d46dc69bff2",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。 未在仓库根目录发现许可证文件。"
+  },
+  {
+    "id": "github-011",
+    "title": "keon/awesome-physical-ai",
+    "url": "https://github.com/keon/awesome-physical-ai",
+    "platform": "github",
+    "author": "keon",
+    "accessed_at": "2026-11-23",
+    "category": "基础模型与 Physical AI",
+    "summary_zh": "覆盖 VLA、世界模型、动作表示和机器人基础模型，用作相邻技术路线的文献入口。",
+    "evidence_status": "local_clone_readme_verified",
+    "evidence_urls": [
+      "https://github.com/keon/awesome-physical-ai"
+    ],
+    "local_path": "github/repos/keon__awesome-physical-ai",
+    "readme_path": "github/repos/keon__awesome-physical-ai/README.md",
+    "clone_type": "shallow",
+    "commit": "a6f62d11d9e7d1336a04927e86e3fbedc25a8456",
+    "commit_date": "2026-06-24T07:11:57-04:00",
+    "branch": "main",
+    "remote": "https://github.com/keon/awesome-physical-ai.git",
+    "license": "CC0-1.0",
+    "license_files": [
+      "LICENSE"
+    ],
+    "readme_sha256": "693fd0b57a9bc74e0414f9256bf32dd88cc3b21b9f5c52a214b15a26ccbe08d2",
+    "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+  }
+]

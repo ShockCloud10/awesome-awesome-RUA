@@ -1,0 +1,27 @@
+{
+  "id": "github-006",
+  "title": "Lin-Murphy/Awesome-Robot-Agents",
+  "url": "https://github.com/Lin-Murphy/Awesome-Robot-Agents",
+  "platform": "github",
+  "author": "Lin-Murphy",
+  "accessed_at": "2026-11-23",
+  "category": "核心机械臂 agent",
+  "summary_zh": "聚焦机器人操作，记录模型决策、执行接口、实现和演示的来源，包含 Astra 实机项目。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/Lin-Murphy/Awesome-Robot-Agents"
+  ],
+  "local_path": "github/repos/Lin-Murphy__Awesome-Robot-Agents",
+  "readme_path": "github/repos/Lin-Murphy__Awesome-Robot-Agents/README.md",
+  "clone_type": "shallow",
+  "commit": "ca9db28e4eeb33de65907bc0b9c61302c686a2c1",
+  "commit_date": "2026-10-01T12:00:46+01:00",
+  "branch": "main",
+  "remote": "https://github.com/Lin-Murphy/Awesome-Robot-Agents.git",
+  "license": "MIT",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "ad23be8bb53a18adde4bc312741f0e1b8ceb0bc6a45c49aa621199a3e2b28108",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

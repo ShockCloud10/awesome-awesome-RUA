@@ -1,0 +1,529 @@
+[
+  {
+    "id": "reddit-001",
+    "title": "I gave Claude control of my real robot",
+    "title_zh": "Opus 5.5 通过工具调用控制 SO-101 对齐积木",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1xgyzff/i_gave_claude_control_of_my_real_robot/",
+    "author": "Naive-Couple-1074",
+    "published_at": "2026-10-27",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude Code",
+      "Opus 5.5"
+    ],
+    "robot": "SO-101 机械臂",
+    "control_layer": "视觉观察 → agent 工具调用 → 本地机械臂与夹爪连接器",
+    "summary_zh": "作者用 Claude Code 编写相机和机械臂连接器及观察—动作循环，向 Opus 5.5 提供图像、移动和夹爪工具，让实体 SO-101 尝试将黄色积木排齐。系统支持保存重复动作作为技能，另有 MuJoCo 仿真与本地运动限制。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1xgyzff/i_gave_claude_control_of_my_real_robot/",
+      "https://www.withplayground.ai/"
+    ],
+    "limitations": "作者明确表示可靠性尚不理想；帖子证明的是工具调用演示，不是稳定生产能力。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "SO-101",
+      "tool-use",
+      "Opus",
+      "skills"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-001.md"
+  },
+  {
+    "id": "reddit-002",
+    "title": "Using Astra/Fable5.1 agents to make a useful robotic setup",
+    "title_zh": "Astra 与 Fable 5.1 工业机械臂工作站",
+    "url": "https://www.reddit.com/r/robotics/comments/1weqsxr/using_astrafable51_agents_to_make_a_useful/",
+    "author": "Wing-Realistic",
+    "published_at": "2026-09-12",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Astra",
+      "Fable 5.1",
+      "Claude"
+    ],
+    "robot": "工业机械臂、双目相机、Jetson、固定照明工作箱",
+    "control_layer": "代码生成与三维重建辅助机器人编程",
+    "summary_zh": "作者展示工业机械臂工作站，用双目图像重建场景，让 Claude 生成夹具与定制夹爪并自动编写机器人程序，在人类监督下修复错误。帖子特别强调精确运动、相机同步与稳定光照的作用。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/robotics/comments/1weqsxr/using_astrafable51_agents_to_make_a_useful/"
+    ],
+    "limitations": "作者称 Jetson 用于本地运行，但正文未明确区分本地视觉/控制与模型推理位置；有人类监督，不能记成完全自主。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "Astra",
+      "Fable",
+      "industrial-arm",
+      "hardware-design"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-002.md"
+  },
+  {
+    "id": "reddit-003",
+    "title": "Weekend build: an SO-101 arm + a Claude Code skill that handles the whole loop — servo diagnostics, motion tuning, and the video edit.",
+    "title_zh": "Dum-E 机械臂技能覆盖诊断 调参与动作编排",
+    "url": "https://www.reddit.com/r/claude/comments/1ud1b38/weekend_build_an_so101_arm_a_claude_code_skill/",
+    "author": "KamalSingh10",
+    "published_at": "2026-06-22",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude Code"
+    ],
+    "robot": "SO-101 机械臂与腕部相机",
+    "control_layer": "agent 辅助硬件调试、寄存器调参、运动脚本执行",
+    "summary_zh": "作者将 Claude Code 与 SO-101 封装为可复用技能，描述了舵机故障诊断、单关节校准、低速抖动调参，以及经安全层执行的平滑动作脚本。项目同时自动录制腕部相机并剪辑视频，提供 dummie 开源仓库。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/claude/comments/1ud1b38/weekend_build_an_so101_arm_a_claude_code_skill/",
+      "https://github.com/kamalkantsingh10/dummie"
+    ],
+    "limitations": "人工负责部分现场观察和操作；这是软硬件工作流及动作脚本演示，不等于通用自主抓取。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "SO-101",
+      "Claude-Code",
+      "skills",
+      "diagnostics"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-003.md"
+  },
+  {
+    "id": "reddit-004",
+    "title": "I asked Fable 5.2 to paint a self-portrait with a real robot arm",
+    "title_zh": "Fable 5.2 自行编写控制器并用机械臂画自画像",
+    "url": "https://www.reddit.com/r/accelerate/comments/1xve8o4/i_asked_fable_52_to_paint_a_selfportrait_with_a/",
+    "author": "VoicAndrei",
+    "published_at": "2026-11-13",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Fable 5.2"
+    ],
+    "robot": "机械臂、画笔、三台相机、水彩调色盘",
+    "control_layer": "SSH 下编写控制器、标定和执行绘画脚本",
+    "summary_zh": "作者提供机械臂、相机与 SSH，让 Fable 5.2 自行探索控制和相机标定。帖子描述了撞桌、颜料盘高度误差和重新标定过程，最终在第六张纸上绘画。作者报告用时跨两天，强调没有提供绘画专用工具或逐幅反馈。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/accelerate/comments/1xve8o4/i_asked_fable_52_to_paint_a_selfportrait_with_a/",
+      "https://www.reddit.com/r/Anthropic/comments/1xwr5r3/i_gave_fable_52_a_robot_arm_and_asked_it_to_paint/"
+    ],
+    "limitations": "耗时与成本为作者自报，未复现；有布置硬件和纸张等人工环节；视频未逐帧核验。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "Fable",
+      "painting",
+      "SSH",
+      "self-calibration"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-004.md"
+  },
+  {
+    "id": "reddit-005",
+    "title": "Claude Fable wrote its own code to control a robot arm",
+    "title_zh": "Fable 5.2 自编程序完成工厂机械臂任务",
+    "url": "https://www.reddit.com/r/ClaudeMCP/comments/1xyqv5g/claude_fable_wrote_its_own_code_to_control_a/",
+    "author": "pikachupakapra",
+    "published_at": "2026-11-17",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude Fable 5.2"
+    ],
+    "robot": "精密加工工厂任务中的机械臂，型号未说明",
+    "control_layer": "模型生成机器人控制程序",
+    "summary_zh": "帖子展示机械臂装配类操作，发帖者称给 Fable 5.2 一个来自精密加工工厂的任务，由模型编写代码完成，未使用遥操作、演示数据或任务专门训练。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/ClaudeMCP/comments/1xyqv5g/claude_fable_wrote_its_own_code_to_control_a/"
+    ],
+    "limitations": "正文极短，没有控制接口、代码、成功率或完整日志；无遥操作和无训练均为发帖者说法。",
+    "source_type": "demo_claim",
+    "tags": [
+      "Fable",
+      "industrial-arm",
+      "code-generation"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-005.md"
+  },
+  {
+    "id": "reddit-006",
+    "title": "Claude code controlling a robot arm with an MCP server",
+    "title_zh": "Claude Code 通过 MCP 控制 Franka Panda",
+    "url": "https://www.reddit.com/r/claudexplorers/comments/1qzol47/claude_code_controlling_a_robot_arm_with_an_mcp/",
+    "author": "ratsbane",
+    "published_at": "2026-02-08",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude Code"
+    ],
+    "robot": "Franka Emika Panda",
+    "control_layer": "MCP 笛卡尔控制与相机观察闭环",
+    "summary_zh": "作者先让 Claude Code 实现机械臂控制 MCP，再迭代相机 MCP，使模型观察动作结果并识别、移动物体。帖子提供 panda-mcp 仓库；相关后续讨论还描述了从关节角指令升级为 pick_at 一类高层接口，并收集抓放数据。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/claudexplorers/comments/1qzol47/claude_code_controlling_a_robot_arm_with_an_mcp/",
+      "https://github.com/ratsbane/panda-mcp",
+      "https://www.reddit.com/r/ClaudeAI/comments/1rbqn3h/has_anyone_put_claude_on_a_physical_device_that/",
+      "https://www.youtube.com/watch?v=Zig-_-1gK1Y"
+    ],
+    "limitations": "将自生成数据用于 VLA 是计划而非本帖已完成成果；可靠性为作者描述，未独立测量。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "Franka",
+      "MCP",
+      "Claude-Code",
+      "data-collection"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-006.md"
+  },
+  {
+    "id": "reddit-007",
+    "title": "I gave Claude Fable 5.1 and GPT 6 Astra control of my Robot Arm. Which do you think painted better?",
+    "title_zh": "同一 SO-101 上比较 Fable 5.1 与 Astra 涂色",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/",
+    "author": "KungRaLeo",
+    "published_at": "2026-09-14",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude Fable 5.1",
+      "GPT 6 Astra"
+    ],
+    "robot": "SO-101",
+    "control_layer": "模型使用同一机械臂完成形状填色任务",
+    "summary_zh": "作者复现机器人绘画实验，并将任务改为用单色填充形状，让 Fable 5.1 与 GPT 6 Astra 在同一 SO-101 上尝试。正文先匿名展示两个结果，后公布 A 为 Astra、B 为 Fable；社区投票偏向 B。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/ClaudeAI/comments/1wgaetp/i_gave_claude_fable_51_and_gpt_6_astra_control_of/"
+    ],
+    "limitations": "主观投票不是控制精度或可靠性评测；提示词、重试次数与完整控制日志未提供。",
+    "source_type": "first_party_comparison",
+    "tags": [
+      "Astra",
+      "Fable",
+      "SO-101",
+      "painting",
+      "comparison"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-007.md"
+  },
+  {
+    "id": "reddit-008",
+    "title": "I built a robotic body controlled by Claude Fable 5.",
+    "title_zh": "Fable 5 通过 API 控制树莓派机器人身体",
+    "url": "https://www.reddit.com/r/raspberry_pi/comments/1ulu0hf/i_built_a_robotic_body_controlled_by_claude_fable/",
+    "author": "wonderingada",
+    "published_at": null,
+    "publication_date_source": "not_confirmed",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude Fable 5"
+    ],
+    "robot": "Raspberry Pi 5、Jetson、双摄像头机器人",
+    "control_layer": "云端模型决策 → 本地视觉与硬件控制",
+    "summary_zh": "作者描述 Raspberry Pi 承担核心逻辑并调用模型 API，Jetson 处理视觉，双摄像头提供场景信息。Claude Fable 5 根据观察做出决策并返回动作命令，本地系统负责具体硬件控制。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/raspberry_pi/comments/1ulu0hf/i_built_a_robotic_body_controlled_by_claude_fable/"
+    ],
+    "limitations": "未给出动作 API、代码仓库或量化结果；硬件规格按发帖者描述记录，未核实；模型通过 API 调用，不属于全本地推理。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "Fable",
+      "Raspberry-Pi",
+      "vision",
+      "API-control"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-008.md"
+  },
+  {
+    "id": "reddit-009",
+    "title": "Robotic Arm Controlled By Gemini 3.0",
+    "title_zh": "Gemini 3.0 通过逐步视觉观察完成清桌抓放",
+    "url": "https://www.reddit.com/r/GeminiAI/comments/1pms77x/robotic_arm_controlled_by_gemini_30/",
+    "author": "ReflectionLarge6439",
+    "published_at": "2025-12-14",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Gemini 3.0",
+      "Gemini 1.5 ER（原帖称呼）"
+    ],
+    "robot": "自制 3D 打印机械臂、深度相机、Arduino 夹爪",
+    "control_layer": "VLM 逐动作观察与高层抓放选择",
+    "summary_zh": "作者用 Gemini 分析深度相机图像，把清理桌面分解为抓取、放入袋中、重新观察等步骤。评论确认图像发送给 Gemini API，每完成一步才再次观察；机械臂和齿轮箱由作者自制，电脑软件控制机械臂。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/GeminiAI/comments/1pms77x/robotic_arm_controlled_by_gemini_30/",
+      "https://youtu.be/UOc8WNjLqPs"
+    ],
+    "limitations": "并非持续视频下的实时运动闭环；原帖将 VLA 作为后续升级方案，不能把此实现记为 VLA。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "Gemini",
+      "VLM",
+      "pick-and-place",
+      "closed-loop"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-009.md"
+  },
+  {
+    "id": "reddit-010",
+    "title": "Fable 5.2 shows substantially improved skills in controlling physical robots, even on tasks it has never explicitly been trained to do. What do you guys think ?",
+    "title_zh": "Fable 5.2 机器人演示的社区技术质疑",
+    "url": "https://www.reddit.com/r/robotics/comments/1xs1bu6/fable_52_shows_substantially_improved_skills_in/",
+    "author": "BelatedCube182",
+    "published_at": "2026-11-09",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Fable 5.2"
+    ],
+    "robot": "机械臂，具体型号未说明",
+    "control_layer": "实体演示与仿真 benchmark 的二手讨论",
+    "summary_zh": "帖子转发 Fable 5.2 的机器人演示，讨论解魔方、拧瓶盖、装配和绘画。评论重点询问动作周期、控制接口、视频加速、是否使用 VLA，以及失误后的恢复；发帖者澄清视频来自 Anthropic 而非自己制作。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/robotics/comments/1xs1bu6/fable_52_shows_substantially_improved_skills_in/",
+      "https://robodojo-benchmark.com"
+    ],
+    "limitations": "二手讨论，非独立复现；RoboDojo 在帖子中明确是仿真 benchmark，不能把其分数解释为实体成功率；没有训练过此类任务也未由本帖证明。",
+    "source_type": "secondary_discussion",
+    "tags": [
+      "Fable",
+      "benchmark",
+      "latency",
+      "failure-recovery"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-010.md"
+  },
+  {
+    "id": "reddit-011",
+    "title": "GPT-6 Astra painted this on a real robot arm, then filmed and edited it, all from one chat",
+    "title_zh": "Astra 规划绘画并编排整套机械臂工作室",
+    "url": "https://www.reddit.com/r/singularity/comments/1xi0o38/gpt6_astra_painted_this_on_a_real_robot_arm_then/",
+    "author": "dhvanil",
+    "published_at": "2026-10-28",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "GPT-6 Astra",
+      "Codex",
+      "Claude"
+    ],
+    "robot": "绘画机械臂、双相机、灯光、数字孪生",
+    "control_layer": "规划和工具编排 → 检查后的执行器驱动机械臂",
+    "summary_zh": "作者描述 Astra 从图案设计、笔触计划和水彩扩散模拟开始，在数字孪生中检查路线与关节限制，再控制相机、灯光和机械臂完成绘画并剪辑。正文明确：模型调用已有工作室工具，实际运动由检查后的执行器完成。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/singularity/comments/1xi0o38/gpt6_astra_painted_this_on_a_real_robot_arm_then/",
+      "https://dhvanil.com/pb27",
+      "https://www.reddit.com/r/accelerate/comments/1xisdzb/gpt6_astra_painted_this_on_a_real_robot_arm_then/"
+    ],
+    "limitations": "不是逐 token 的电机控制；系统工具由作者与 Codex/Claude 多月搭建；成片包含笔触叠加可视化，不能将叠加层误当真实颜料。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "Astra",
+      "painting",
+      "digital-twin",
+      "tool-orchestration"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-011.md"
+  },
+  {
+    "id": "reddit-012",
+    "title": "Unitree Go2 MCP Server",
+    "title_zh": "LLM 通过 MCP 和 ROS2 控制 Unitree Go2",
+    "url": "https://www.reddit.com/r/robotics/comments/1kil1tj/unitree_go2_mcp_server/",
+    "author": "lpigeon_reddit",
+    "published_at": "2025-05-09",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "LLM（未指定）"
+    ],
+    "robot": "Unitree Go2",
+    "control_layer": "自然语言 → MCP → ROS2 命令",
+    "summary_zh": "作者发布用于 Unitree Go2 的 MCP 服务，将自然语言交给 LLM 解析，再转换为 ROS2 命令控制机器狗。帖子提供开源仓库，适合研究现有机器人控制栈与通用 agent 的接口衔接。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/robotics/comments/1kil1tj/unitree_go2_mcp_server/",
+      "https://github.com/lpigeon/unitree-go2-mcp-server"
+    ],
+    "limitations": "帖子没有模型版本、行为成功率或延迟数据；低层运动控制仍由机器人系统承担。",
+    "source_type": "first_party_release",
+    "tags": [
+      "Unitree-Go2",
+      "MCP",
+      "ROS2",
+      "natural-language"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-012.md"
+  },
+  {
+    "id": "reddit-013",
+    "title": "ROS MCP Server Release!",
+    "title_zh": "ROS MCP Server 连接 Claude GPT Gemini 与实体机器人",
+    "url": "https://www.reddit.com/r/robotics/comments/1ndegna/ros_mcp_server_release/",
+    "author": "lpigeon_reddit",
+    "published_at": "2025-09-10",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Claude",
+      "GPT",
+      "Gemini"
+    ],
+    "robot": "ROS 1/2 机器人、Unitree Go2、工业机器人",
+    "control_layer": "MCP → ROS topics services actions",
+    "summary_zh": "作者发布通用 ROS MCP Server，允许模型通过 ROS 话题、服务和动作操作现有机器人，并给出工业机器人调试及 Go2 自然语言控制视频。评论解释 Go2 的预设动作来自机器人自带功能，LLM 负责把用户请求映射到这些动作。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/robotics/comments/1ndegna/ros_mcp_server_release/",
+      "https://github.com/robotmcp/ros-mcp-server",
+      "https://youtu.be/SrHzC5InJDA",
+      "https://youtu.be/RW9_FgfxWzs"
+    ],
+    "limitations": "跨平台与无需修改机器人代码属于发布者承诺；不能把调用预设动作理解成模型生成底层步态；本次未运行仓库。",
+    "source_type": "first_party_release",
+    "tags": [
+      "MCP",
+      "ROS",
+      "Claude",
+      "Gemini",
+      "tool-use"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-013.md"
+  },
+  {
+    "id": "reddit-014",
+    "title": "I built a ROS2-controlled CNC plotter that takes natural language commands via an LLM Agent (w/ RViz Digital Twin)",
+    "title_zh": "OpenAI agent SDK 通过 ROS2 控制实体 CNC 绘图机",
+    "url": "https://www.reddit.com/r/ROS/comments/1r67511/i_built_a_ros2controlled_cnc_plotter_that_takes/",
+    "author": "Purple_Fee6414",
+    "published_at": "2026-02-16",
+    "publication_date_source": "reddit_page_top_posts_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "LLM（未指定）",
+      "OpenAI agent SDK"
+    ],
+    "robot": "双轴 CNC 绘图机、Raspberry Pi、Arduino GRBL",
+    "control_layer": "agent draw_shape 工具 → 路径坐标 → ROS2 GRBL driver",
+    "summary_zh": "作者回收光驱步进电机构建双轴绘图机，以 Raspberry Pi 运行 ROS2、Arduino 运行 GRBL。自定义 llm_commander 节点注册 draw_shape 工具，把自然语言画方形等请求转换为坐标，通过驱动节点执行，并在 RViz 中同步状态。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/ROS/comments/1r67511/i_built_a_ros2controlled_cnc_plotter_that_takes/",
+      "https://github.com/yacin-hamdi/ros-pi-cnc",
+      "https://www.reddit.com/r/robotics/comments/1r67684/i_built_a_ros2controlled_cnc_plotter_that_takes/"
+    ],
+    "limitations": "任务范围主要是预定义几何形状与工具调用；不是任意视觉操作；RViz 是状态可视化而非已证明的动力学仿真。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "ROS2",
+      "OpenAI-Agent-SDK",
+      "CNC",
+      "GRBL",
+      "tool-use"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-014.md"
+  },
+  {
+    "id": "reddit-015",
+    "title": "Embodied Astra paints the Golden Gate bridge",
+    "title_zh": "Astra 机械臂画金门桥的 Reddit 转发",
+    "url": "https://www.reddit.com/r/singularity/comments/1wb4brl/embodied_astra_paints_the_golden_gate_bridge/",
+    "author": "Outside-Iron-8242",
+    "published_at": "2026-09-08",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "Astra"
+    ],
+    "robot": "绘画机械臂、画笔与相机",
+    "control_layer": "通用模型控制机器人绘画，接口细节未公开于本帖",
+    "summary_zh": "帖子引用 X 作者 cdngdev 的金门桥绘画实验，称给 Astra 机械臂、画笔和相机后，模型逐步学会控制并改善绘画结果。可用于追踪 Astra 机械臂绘画案例的传播及原始 X 链接。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/singularity/comments/1wb4brl/embodied_astra_paints_the_golden_gate_bridge/",
+      "https://x.com/cdngdev/status/2097339677128982873"
+    ],
+    "limitations": "二手转发；原始 X 链接直开返回 403；没有完整控制代码和重复实验，不能由延时视频推断实时性。",
+    "source_type": "secondary_repost",
+    "tags": [
+      "Astra",
+      "painting",
+      "X-cross-reference"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-015.md"
+  },
+  {
+    "id": "reddit-016",
+    "title": "Chris Matthieu Hacks on Physical AI Live using AgenticROS and RealSense!",
+    "title_zh": "AgenticROS 连接 Claude 与 RealSense 轮式机器人",
+    "url": "https://www.reddit.com/r/robotics/comments/1uliymn/chris_matthieu_hacks_on_physical_ai_live_using/",
+    "author": "Chemical-Hunter-5479",
+    "published_at": "2026-07-02",
+    "publication_date_source": "search_index_explicit_date",
+    "accessed_at": "2026-11-23",
+    "platform": "reddit",
+    "models": [
+      "OpenClaw",
+      "Claude AI Agents"
+    ],
+    "robot": "轮式 ROS 机器人、RealSense D457 GMSL 双目相机",
+    "control_layer": "agent → ROS → 视觉输入与轮式移动工具",
+    "summary_zh": "帖子分享 Automate 2026 的 AgenticROS 演讲，发帖者称把 OpenClaw 与 Claude agent 接入 ROS，向 agent 提供 RealSense 视觉和移动能力，让其通过机器人身体执行任务。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.reddit.com/r/robotics/comments/1uliymn/chris_matthieu_hacks_on_physical_ai_live_using/",
+      "https://ru.reddit.com/r/robotics/comments/1uliymn/chris_matthieu_hacks_on_physical_ai_live_using/",
+      "https://www.youtube.com/watch?v=c6vFLB2gQ34"
+    ],
+    "limitations": "原帖短且没有量化结果；已读取 Reddit 俄语界面下的英文正文，YouTube 链接抓取失败，未观看完整视频。",
+    "source_type": "first_party_demo",
+    "tags": [
+      "ROS",
+      "AgenticROS",
+      "RealSense",
+      "mobile-robot"
+    ],
+    "media_verified": false,
+    "note_file": "reddit-016.md"
+  }
+]

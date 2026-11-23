@@ -1,0 +1,79 @@
+[
+  {
+    "title": "I gave Fable 5.2 a robot arm and asked it to paint a self-portrait",
+    "url": "https://www.reddit.com/r/Anthropic/comments/1xwr5r3/i_gave_fable_52_a_robot_arm_and_asked_it_to_paint/",
+    "status": "duplicate_merged",
+    "merged_into": "reddit-004",
+    "reason": "同作者同实验的稍后交叉贴，正文已读取。"
+  },
+  {
+    "title": "Gpt-6 Astra Painted This On A Real Robot Arm, Then Filmed And Edited It, All From One Chat",
+    "url": "https://www.reddit.com/r/accelerate/comments/1xisdzb/gpt6_astra_painted_this_on_a_real_robot_arm_then/",
+    "status": "duplicate_merged",
+    "merged_into": "reddit-011",
+    "reason": "转发 u/dhvanil 同一次绘画演示。"
+  },
+  {
+    "title": "Has anyone put Claude on a physical device that is capable of motion?",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1rbqn3h/has_anyone_put_claude_on_a_physical_device_that/",
+    "status": "related_discussion_merged",
+    "merged_into": "reddit-006",
+    "reason": "其中 ratsbane 的 Panda MCP 评论已读，作为同一项目后续技术证据合并。"
+  },
+  {
+    "title": "I built a ROS2-controlled CNC plotter that takes natural language commands via an LLM Agent (w/ RViz Digital Twin)",
+    "url": "https://www.reddit.com/r/robotics/comments/1r67684/i_built_a_ros2controlled_cnc_plotter_that_takes/",
+    "status": "duplicate_merged",
+    "merged_into": "reddit-014",
+    "reason": "跨版转发；改为归档 r/ROS 完整原帖。"
+  },
+  {
+    "title": "GPT6 Astra controlling a robot and learning how to paint with it.",
+    "url": "https://www.reddit.com/r/aiwars/comments/1wavvio/gpt6_astra_controlling_a_robot_and_learning_how/",
+    "status": "duplicate_topic",
+    "merged_into": "reddit-015",
+    "reason": "同一 Astra 绘画演示的社区转发，保留有明确原始 X 链接的 r/singularity 版本。"
+  },
+  {
+    "title": "Signs of AGI? GPT-6 Astra scored 95% on a robot control task vs Fable 5.1's 40%",
+    "url": "https://www.reddit.com/r/singularity/comments/1w80gif/signs_of_agi_gpt6_astra_scored_95_on_a_robot/",
+    "status": "needs_primary_benchmark_verification",
+    "reason": "正文已读，但百分比为二手引用 Jay Chooi/RobotCurve；没有核实原始 benchmark 配置与实体/仿真范围，暂不计入核心条目。"
+  },
+  {
+    "title": "I built a body for GPT",
+    "url": "https://www.reddit.com/r/ChatGPT/comments/1resfgg/i_built_a_body_for_gpt/",
+    "status": "excluded_scope",
+    "reason": "搜索结果中作者解释主要是音频触发的随机动作和预设面部表情，不足以作为 GPT 决策控制机器人动作的证据。"
+  },
+  {
+    "title": "Has anyone here been using Codex or Claude to design robotics hardware/mechanics?",
+    "url": "https://www.reddit.com/r/robotics/comments/1wrfpz8/has_anyone_here_been_using_codex_or_claude_to/",
+    "status": "adjacent_hardware_design",
+    "reason": "主要讨论 CAD 和机械设计辅助，缺少已完成的 agent 实体机器人控制证据。"
+  },
+  {
+    "title": "[Workflow] Control a Robot Arm with Claude Code via MCP, CLAUDE.md, and Skills",
+    "url": "https://www.reddit.com/r/ClaudeWorkflows/comments/1xq64fg/workflow_control_a_robot_arm_with_claude_code_via/",
+    "status": "needs_original_post",
+    "reason": "自动生成的二手工作流摘要，缺少本次已核实的原始实现帖，不作为独立实验收录。"
+  },
+  {
+    "title": "[Workflow] Claude Code Controlled ESP32 Desk Robot with Tool Calls (MCP Mode)",
+    "url": "https://www.reddit.com/r/ClaudeWorkflows/comments/1u5mvza/workflow_claude_code_controlled_esp32_desk_robot/",
+    "status": "needs_original_post",
+    "reason": "自动汇编的二手条目，需追溯 espbridge 作者的原始帖子。"
+  },
+  {
+    "title": "My experience using Claude Code for robotics from the advice of r/robotics",
+    "url": "https://www.reddit.com/r/robotics/comments/1tc4r9n/my_experience_using_claude_code_for_robotics_from/",
+    "status": "adjacent_development_workflow",
+    "reason": "对 ROS 和 Gazebo 开发提示有价值，但主要是编程工作流经验而非运行时模型控制机器人的演示。"
+  },
+  {
+    "title": "Any one interested in building robots, check out my video. It looks like you can vibe code HUMANOIDS now !!",
+    "url": "https://www.reddit.com/r/humanoidrobotics/comments/1y26ooe/any_one_interested_in_building_robots_check_out/",
+    "status": "needs_physical_validation",
+    "reason": "设计、仿真及训练占主导；评论也要求明确哪些部件已制造与实测，暂不视为实体控制案例。"
+  }
+]

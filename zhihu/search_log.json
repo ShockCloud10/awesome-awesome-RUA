@@ -1,0 +1,126 @@
+{
+  "accessed_at": "2026-11-23",
+  "method": "web search + open；记录查询与入选/候选链接，不是搜索结果全集或网页全文",
+  "searches": [
+    {
+      "platform": "zhihu",
+      "queries": [
+        "site:zhihu.com 大模型 控制 机器人 Claude",
+        "site:zhihu.com \"Astra\" \"机器人\"",
+        "site:zhihu.com \"Fable\" \"机器人\"",
+        "site:zhihu.com \"robot use\" agent",
+        "site:zhihu.com \"Claude\" \"控制\" \"机械臂\""
+      ],
+      "selected_result_urls": [
+        "https://zhuanlan.zhihu.com/p/2085370008419550258",
+        "https://zhuanlan.zhihu.com/p/2076669898638598653",
+        "https://zhuanlan.zhihu.com/p/2088248610190373737",
+        "https://zhuanlan.zhihu.com/p/2086434091696665194",
+        "https://zhuanlan.zhihu.com/p/2091852082328368819",
+        "https://zhuanlan.zhihu.com/p/2081046068779807928",
+        "https://zhuanlan.zhihu.com/p/2083831003857019811",
+        "https://zhuanlan.zhihu.com/p/2078119368840561414"
+      ]
+    },
+    {
+      "platform": "zhihu",
+      "queries": [
+        "site:zhihu.com \"robotic use agent\"",
+        "site:zhihu.com \"Claude\" \"机械臂\" \"Opus\"",
+        "site:zhuanlan.zhihu.com \"GPT-6\" \"机器人\" \"Astra\" RUA",
+        "site:zhuanlan.zhihu.com \"Claude\" \"机械臂\" Opus",
+        "site:zhuanlan.zhihu.com \"RUA\" 机器人",
+        "site:zhuanlan.zhihu.com \"Fable\" \"机器人\" \"控制\""
+      ],
+      "selected_result_urls": [
+        "https://zhuanlan.zhihu.com/p/2085370008419550258",
+        "https://zhuanlan.zhihu.com/p/2076669898638598653",
+        "https://zhuanlan.zhihu.com/p/2088248610190373737",
+        "https://zhuanlan.zhihu.com/p/2086434091696665194",
+        "https://zhuanlan.zhihu.com/p/2091852082328368819",
+        "https://zhuanlan.zhihu.com/p/2081046068779807928",
+        "https://zhuanlan.zhihu.com/p/2083831003857019811",
+        "https://zhuanlan.zhihu.com/p/2078119368840561414"
+      ]
+    },
+    {
+      "platform": "zhihu",
+      "queries": [
+        "site:zhihu.com \"Gemini Robotics\" \"1.5\"",
+        "site:zhihu.com \"ChatGPT for Robotics\"",
+        "site:zhihu.com \"机器人\" \"Code as Policies\""
+      ],
+      "selected_result_urls": [
+        "https://zhuanlan.zhihu.com/p/2082787698893383667",
+        "https://zhuanlan.zhihu.com/p/2066454344422135169"
+      ]
+    },
+    {
+      "platform": "zhihu",
+      "queries": [
+        "site:github.com/RLinf/RPent",
+        "Zetta Zeva 域变换 robot github",
+        "GLOW robot Astra agent github"
+      ],
+      "selected_result_urls": [
+        "https://github.com/RLinf/RPent",
+        "https://air-embodied-brain.github.io/zetta/"
+      ],
+      "note": "一手交叉核验；未找到可用于核对 GLOW 比较细节的一手页面。"
+    }
+  ],
+  "direct_open_log": [
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2085370008419550258",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2076669898638598653",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2088248610190373737",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2086434091696665194",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2091852082328368819",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2081046068779807928",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2083831003857019811",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2078119368840561414",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2082787698893383667",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    },
+    {
+      "url": "https://zhuanlan.zhihu.com/p/2066454344422135169",
+      "status": "snippet_only",
+      "details": "原页 403 或超时；仅保留搜索索引摘要"
+    }
+  ],
+  "followed_links": []
+}
+

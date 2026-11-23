@@ -1,0 +1,27 @@
+{
+  "id": "github-005",
+  "title": "chonghanqin/Awesome-Agentic-Robots",
+  "url": "https://github.com/chonghanqin/Awesome-Agentic-Robots",
+  "platform": "github",
+  "author": "chonghanqin",
+  "accessed_at": "2026-11-23",
+  "category": "核心 agentic robotics",
+  "summary_zh": "Towards Agentic Robots 综述配套仓库，按模型、数据、环境和执行框架组织研究。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/chonghanqin/Awesome-Agentic-Robots"
+  ],
+  "local_path": "github/repos/chonghanqin__Awesome-Agentic-Robots",
+  "readme_path": "github/repos/chonghanqin__Awesome-Agentic-Robots/README.md",
+  "clone_type": "shallow",
+  "commit": "2b8da6dbdf687e49c0e94dbf238f0bfd4bed57a0",
+  "commit_date": "2026-11-20T23:10:18+08:00",
+  "branch": "main",
+  "remote": "https://github.com/chonghanqin/Awesome-Agentic-Robots.git",
+  "license": "MIT",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "503dee981b36d314ce4ce737d97ff68973f8aa321d081acdeca43e682dd87f5f",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

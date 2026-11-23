@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://github.com/backblaze-labs/awesome-physical-ai",
+    "status": "not_selected",
+    "reason_zh": "搜索命中的广义 Physical AI 清单；本批优先 RUA，并已选择其他基础模型与 Physical AI 清单。未克隆。"
+  },
+  {
+    "url": "https://github.com/natnew/awesome-physical-ai",
+    "status": "not_selected",
+    "reason_zh": "搜索命中的广义 Physical AI 清单；主题与已选扩展清单重叠。未克隆。"
+  },
+  {
+    "url": "https://github.com/mrjohncv/Awesome-Embodied-Agent-with-LLMs",
+    "status": "fork_skipped",
+    "reason_zh": "搜索页面标明是 fork，已选择其上游 zchoi/Awesome-Embodied-Robotics-and-Agent。"
+  },
+  {
+    "url": "https://github.com/Findques/Awesome-Embodied-Agent-with-LLMs",
+    "status": "fork_skipped",
+    "reason_zh": "搜索页面标明是 fork，已选择其上游 zchoi/Awesome-Embodied-Robotics-and-Agent。"
+  },
+  {
+    "url": "https://github.com/Akihisa-Watanabe/awesome-astra",
+    "status": "candidate_not_reviewed",
+    "reason_zh": "博客检索发现的 Astra 综合清单线索；本批未阅读全文、未克隆，核心 Astra 具身清单已收录。"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "id": "github-002",
+  "title": "zjwzcx/Awesome-Astra-Embodied-AI",
+  "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+  "platform": "github",
+  "author": "zjwzcx",
+  "accessed_at": "2026-11-23",
+  "category": "核心 Astra",
+  "summary_zh": "聚焦 GPT-6 Astra 的具身工作流，区分真机、仿真、策略调用、数据回放和训练环境。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI"
+  ],
+  "local_path": "github/repos/zjwzcx__Awesome-Astra-Embodied-AI",
+  "readme_path": "github/repos/zjwzcx__Awesome-Astra-Embodied-AI/README.md",
+  "clone_type": "shallow",
+  "commit": "5f7aa7bcded315d05dfb9d4d473024648bc6cf94",
+  "commit_date": "2026-10-28T16:01:25+08:00",
+  "branch": "main",
+  "remote": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI.git",
+  "license": null,
+  "license_files": [],
+  "readme_sha256": "45e01723cdfd1abe4df9785d3d82dd6107574402e4bbd4c893e9976fecdf51c3",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。 未在仓库根目录发现许可证文件。"
+}

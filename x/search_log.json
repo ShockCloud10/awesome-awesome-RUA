@@ -1,0 +1,139 @@
+{
+  "accessed_at": "2026-11-23",
+  "search_engine": "web.run",
+  "queries": [
+    "site:x.com Claude Opus robot arm control",
+    "site:x.com agent robot physical robotics Claude",
+    "site:x.com Astra robotics robot control",
+    "site:x.com Fable robot agent control",
+    "\"Claude\" \"robot\" \"site:x.com\" \"MCP\"",
+    "\"Opus\" \"robot\" \"twitter\"",
+    "\"robotic use\" \"x.com\"",
+    "\"Fable\" \"robot\" \"Claude\"",
+    "\"site:x.com\" \"robot\" \"Astra\"",
+    "\"site:x.com\" \"robot\" \"Fable\"",
+    "\"site:x.com\" \"robot\" \"Opus\" \"control\"",
+    "\"site:twitter.com\" \"Claude\" \"robot\"",
+    "Claude robot [domains x.com]",
+    "Astra robot arm [domains x.com]",
+    "Fable robots [domains x.com]",
+    "Opus robot control [domains x.com]",
+    "\"GPT-6 Astra\" \"robot\" \"x.com/\"",
+    "\"Fable\" \"robot arm\" \"x.com/\"",
+    "\"Opus\" \"robot\" \"x.com/DozenDucc\"",
+    "\"Claude\" \"robot\" \"x.com/ja_rothschild\"",
+    "\"kaiwynd\" \"robot\" Astra",
+    "\"lucascassiano\" \"Astra\" robot",
+    "\"TongheZhang01\" \"Astra\"",
+    "\"cdngdev\" \"Golden Gate\"",
+    "\"Fable 5.2\" \"robot\" \"x.com\" -\"Blender\" -\"octopus\" -\"spider\"",
+    "\"Opus\" \"robot\" \"DozenDucc\"",
+    "\"Opus\" \"robot arm\" \"twitter.com\"",
+    "\"Fable\" \"robot\" \"paint\" \"twitter\"",
+    "\"Opus 5\" \"zero demonstrations\" robot",
+    "\"Opus\" \"robot arm\" \"x.com\" -\"blender\"",
+    "\"Claude\" \"robot\" \"MCP\" \"twitter\" -\"SEO\" -\"Fable\"",
+    "\"Fable 5.2\" \"robot\" \"self-portrait\"",
+    "\"DozenDucc\" \"Opus 5\"",
+    "\"ArtificialAnlys\" \"hello world\" \"Opus\"",
+    "\"ja_rothschild\" \"bullseye\" robot",
+    "\"HengyuanH\" \"VIA\" robot"
+  ],
+  "scope": "优先实体机器人控制与第一手作者；排除仅屏幕 computer-use、3D 资产、动画",
+  "selected_result_sources": [
+    "https://agent-as-policy-2026.github.io/",
+    "https://artificialanalysis.ai/articles/aa-robotics",
+    "https://clauday.com/article/cbbbded0-f262-4012-a67a-30c3307cad66",
+    "https://feeds.libsyn.com/469701/website/claude-just-leveled-up-nvidias-ceo-did-not",
+    "https://github.com/Akihisa-Watanabe/awesome-astra",
+    "https://github.com/kairunwen/Awesome-Robot-Use-Agent",
+    "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+    "https://jilbab.twstalker.com/DozenDucc",
+    "https://m.twstalker.com/DozenDucc",
+    "https://m.twstalker.com/z_code68632",
+    "https://nitter.jaydenha.uk/cdngdev/status/2097339677128982873",
+    "https://openai.robocurve.org/gpt-6-astra/",
+    "https://openai.robocurve.org/stationerybench/",
+    "https://platform.twstalker.com/DDobas",
+    "https://robocurve.org/roboharm/",
+    "https://search.yahoo.co.jp/realtime/search?btid=MjEwMjMyNjg0MDc0MDE5NjYxNQ%3D%3D&ei=UTF-8&fr=rts_ddtw&nobtl=1&p=astra&rkf=2",
+    "https://source.twstalker.com/HengyuanH/status/2077128122529673312",
+    "https://teapawt.net/ja_rothschild",
+    "https://teapawt.org/ArtificialAnlys/status/2115567357506748492",
+    "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+    "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "https://www.reddit.com/r/accelerate/comments/1wd2xkw/gpt6_astra_just_does_physical_icl_out_of_the_box/",
+    "https://www.sotwe.com/TongheZhang01",
+    "https://www.sotwe.com/tonghezhang01?lang=en",
+    "https://www.teapaw.org/kaiwynd",
+    "https://www.techmeme.com/261110/h0425",
+    "https://www6.twstalker.com/lucascassiano"
+  ],
+  "original_post_open_attempts": [
+    {
+      "url": "https://x.com/claudeai/status/2119867132452221045",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/ArtificialAnlys/status/2115567357506748492",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/chooi_jeq/status/2096064315115839904",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/chooi_jeq/status/2098427488787730636",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/JillJia6/status/2100275532378317038",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/phillip_isola/status/2097045136051933566",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/ja_rothschild/status/2110980771280539700",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/kaiwynd/status/2098823484474348008",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/kaiwynd/status/2099524132341711051",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/TongheZhang01/status/2097801107602911243",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/lucascassiano/status/2097830777438486557",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/ax_pey/status/2098216469012283681",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/cdngdev/status/2097339677128982873",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/_wenlixiao/status/2097801944119349455",
+      "result": "403 Forbidden"
+    },
+    {
+      "url": "https://x.com/chooi_jeq/status/2101118049944543545",
+      "result": "403 Forbidden"
+    }
+  ],
+  "notes": [
+    "此为人工筛选检索日志，记录全部查询和保留结果来源；不是搜索引擎完整返回页面备份。",
+    "镜像时间线会变化；搜索缓存与打开页面不一致时降级 snippet_only。",
+    "Astra、Opus、Fable 都找到相关记录；Opus 5 未确认具体原帖，保留候选。"
+  ]
+}

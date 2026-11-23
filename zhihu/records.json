@@ -1,0 +1,333 @@
+[
+  {
+    "id": "zhihu_001",
+    "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
+    "url": "https://zhuanlan.zhihu.com/p/2085370008419550258",
+    "author": "量子位",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "GPT-6 Astra",
+      "VLA"
+    ],
+    "robot": "RPent 支持的仿真与实体平台",
+    "control_layer": "智能体规划 + VLA 原语 + 记忆",
+    "setting": "mixed",
+    "summary_zh": "介绍 RPent 将通用模型、动作专家、记忆和执行反馈组合为具身智能体；文章给出开源仓库，可沿代码继续跟踪。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2085370008419550258",
+      "https://github.com/RLinf/RPent"
+    ],
+    "limitations": "知乎原页打开返回 403，摘要仅依据搜索索引；项目方向由一手 RPent README 交叉确认。报道中的成功率属于特定仿真配置。",
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "VLA"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://github.com/RLinf/RPent"
+    ],
+    "note_file": "zhihu_001.md"
+  },
+  {
+    "id": "zhihu_002",
+    "title": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
+    "url": "https://zhuanlan.zhihu.com/p/2076669898638598653",
+    "author": "量子位 / henry",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "Claude"
+    ],
+    "robot": "SO-ARM101 / 实验仪器",
+    "control_layer": "MHS 驱动与 MCP 工具",
+    "setting": "physical",
+    "summary_zh": "中文解读 MHS 如何让 Claude 发现硬件、读取状态并调用动作，提及 SO-ARM101 和显微镜控制；附 Anthropic 一手来源。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2076669898638598653",
+      "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "https://www.anthropic.com/research/claude-plays-robotics"
+    ],
+    "limitations": "标题的阻拦打款是文章延伸设想，并非验证过的机械臂任务；文章页面标注编辑时间，未明确首次发布日期。",
+    "tags": [
+      "中文讨论",
+      "Claude"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "https://www.anthropic.com/research/claude-plays-robotics"
+    ],
+    "updated_at": "2026-08-28",
+    "note_file": "zhihu_002.md"
+  },
+  {
+    "id": "zhihu_003",
+    "title": "刚刚，机器人界王者归来！「神级硬件」带飞GPT-6，三大新品震撼掀桌",
+    "url": "https://zhuanlan.zhihu.com/p/2088248610190373737",
+    "author": "新智元",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5.1"
+    ],
+    "robot": "灵巧手 / 双臂 / 无人机等",
+    "control_layer": "编程与执行工具，具体控制层需逐案例确认",
+    "setting": "physical_reported",
+    "summary_zh": "围绕 Astra 驱动硬件的中文传播文章，涵盖转笔与机械臂任务，可用于追踪相关演示的传播路径。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2088248610190373737",
+      "https://openai.robocurve.org/gpt-6-astra/"
+    ],
+    "limitations": "知乎原页 403；搜索索引中的多项演示未经逐项原始视频核查。仅将积木入碗实测与 Robocurve 原报告关联，不能把 95% 推广到复杂任务。",
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "Claude Fable 5.1"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://openai.robocurve.org/gpt-6-astra/"
+    ],
+    "note_file": "zhihu_003.md"
+  },
+  {
+    "id": "zhihu_004",
+    "title": "三榜第一，完胜GPT-6！中国物理RSI杀出黑马",
+    "url": "https://zhuanlan.zhihu.com/p/2086434091696665194",
+    "author": "新智元",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "GPT-6 Astra",
+      "GLOW"
+    ],
+    "robot": "仿真操作平台，具体本体待核",
+    "control_layer": "反馈检查与小步动作",
+    "setting": "simulation_reported",
+    "summary_zh": "报道 GLOW 与 Astra 在抽屉和抓放任务上的比较，强调触碰反馈、试探动作及迭代修正。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2086434091696665194"
+    ],
+    "limitations": "原页 403，实验细节仅来自搜索索引；未核验 GLOW 原始论文及评测协议，标题中的全面领先不能作为已核实结论。",
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "GLOW"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [],
+    "note_file": "zhihu_004.md"
+  },
+  {
+    "id": "zhihu_005",
+    "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+    "url": "https://zhuanlan.zhihu.com/p/2091852082328368819",
+    "author": null,
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "VPP2",
+      "GPT-6 Astra"
+    ],
+    "robot": "RoboDojo 双臂仿真",
+    "control_layer": "具身策略模型与 LLM 基线比较",
+    "setting": "simulation_reported",
+    "summary_zh": "报道 VPP2 在 RoboDojo 的表现，可作为中文社区讨论机器人基模与 Astra 路线的入口。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2091852082328368819"
+    ],
+    "limitations": "原页 403，作者和精确发布日期未确认；排名及数值未以本次原榜单复核，保留报道线索而非背书。",
+    "tags": [
+      "中文讨论",
+      "VPP2",
+      "GPT-6 Astra"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [],
+    "note_file": "zhihu_005.md"
+  },
+  {
+    "id": "zhihu_006",
+    "title": "60分靠数据，100分靠自进化：清华曹婷和「域变换」攻向机器人可部署",
+    "url": "https://zhuanlan.zhihu.com/p/2081046068779807928",
+    "author": null,
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "Zetta ζ",
+      "Zeva"
+    ],
+    "robot": "LIBERO-Pro / RoboCasa",
+    "control_layer": "在线 critic + 恢复技能 + 验证后技能更新",
+    "setting": "simulation",
+    "summary_zh": "介绍分时间尺度的执行纠错和技能更新。对应 Zetta 一手项目页明确保持 VLA 权重冻结、演进执行代码，适合研究 agent harness 的作用。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2081046068779807928",
+      "https://air-embodied-brain.github.io/zetta/"
+    ],
+    "limitations": "知乎原页 403；摘要的技术方向与一手项目页核对。项目页给出的 90.8% 是 LIBERO-Pro Goal、93.6% 是 RoboCasa 18-task，不能当全套基准总分。",
+    "tags": [
+      "中文讨论",
+      "Zetta ζ",
+      "Zeva"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://air-embodied-brain.github.io/zetta/"
+    ],
+    "note_file": "zhihu_006.md"
+  },
+  {
+    "id": "zhihu_007",
+    "title": "马斯克再暗示合并特斯拉和 SpaceX；传 iPhone 18 Pro 系列卖爆；大疆 Pocket 4P「珠光白」3799 开售｜极客早知道",
+    "url": "https://zhuanlan.zhihu.com/p/2083831003857019811",
+    "author": null,
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "GPT-6 Astra",
+      "π0.5"
+    ],
+    "robot": "双臂仿真",
+    "control_layer": "VLA 生成候选动作 + LLM 监督修正",
+    "setting": "simulation_reported",
+    "summary_zh": "新闻汇总中包含 Astra 与 π0.5 混合控制的专题段落，讨论语义理解与精细操作分工。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2083831003857019811"
+    ],
+    "limitations": "原页 403；仅收藏机器人相关段落的线索，报道数值未由对应实验一手文档复核，不能与其他 RoboDojo 配置直接比较。",
+    "tags": [
+      "中文讨论",
+      "GPT-6 Astra",
+      "π0.5"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [],
+    "note_file": "zhihu_007.md"
+  },
+  {
+    "id": "zhihu_008",
+    "title": "OpenAI 和 Anthropic，正在抢夺「AI 硬件」定义权",
+    "url": "https://zhuanlan.zhihu.com/p/2078119368840561414",
+    "author": null,
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "Claude"
+    ],
+    "robot": "机械臂 / 激光与实验仪器",
+    "control_layer": "硬件工具接口与代码闭环",
+    "setting": "physical_reported",
+    "summary_zh": "讨论 MHS 让智能体读取硬件反馈并迭代控制脚本，涉及机械臂和实验室仪器，是中文硬件 agent 架构评论。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2078119368840561414",
+      "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    ],
+    "limitations": "原页 403；MHS 核心机制由 Anthropic 一手文档支持，文章中的其他硬件案例和性能数字未逐项复核。",
+    "tags": [
+      "中文讨论",
+      "Claude"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    ],
+    "note_file": "zhihu_008.md"
+  },
+  {
+    "id": "zhihu_009",
+    "title": "中国物理AI大突破：PhysBrain 1.5登顶全球开源榜一，空间智能与GPT-6 Astra并驾齐驱",
+    "url": "https://zhuanlan.zhihu.com/p/2082787698893383667",
+    "author": "量子位 / 允中",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "PhysBrain 1.5",
+      "GPT-6 Astra",
+      "Gemini Robotics"
+    ],
+    "robot": "多模态具身推理与机器人架构",
+    "control_layer": "空间推理 / 规划",
+    "setting": "perception_and_reasoning",
+    "summary_zh": "报道具身推理基模，并以 Gemini Robotics 和 Robocurve 的实物任务作为背景，帮助补充通用模型与具身基模之间的讨论。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2082787698893383667",
+      "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    ],
+    "limitations": "原页 403；主要是空间推理文章，相关性低于直接控制演示。感知基准得分不能作为机器人执行成功率。",
+    "tags": [
+      "中文讨论",
+      "PhysBrain 1.5",
+      "GPT-6 Astra",
+      "Gemini Robotics"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    ],
+    "note_file": "zhihu_009.md"
+  },
+  {
+    "id": "zhihu_010",
+    "title": "宇树科技 8 月 10 日开启 IPO 申购；字节 ToB 变阵：飞书豆包火山组织调整；马斯克称人类 5-7 年登陆火星 | 极客早知道",
+    "url": "https://zhuanlan.zhihu.com/p/2066454344422135169",
+    "author": null,
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "zhihu",
+    "models": [
+      "Gemini Robotics ER 2"
+    ],
+    "robot": "双臂 / 人形机器人",
+    "control_layer": "ER 高层规划 + VLA 执行",
+    "setting": "physical_reported",
+    "summary_zh": "新闻汇总中的 Gemini Robotics ER 2 段落介绍持续视觉跟踪、任务规划和工具调用，可对照官方博客阅读。",
+    "evidence_status": "snippet_only",
+    "evidence_urls": [
+      "https://zhuanlan.zhihu.com/p/2066454344422135169",
+      "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    ],
+    "limitations": "知乎原页超时，仅机器人相关段落入选；模型角色由 Google DeepMind 一手博客核对。",
+    "tags": [
+      "中文讨论",
+      "Gemini Robotics ER 2"
+    ],
+    "source_type": "secondary",
+    "archive_type": "摘要与来源链接",
+    "supporting_primary_sources": [
+      "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    ],
+    "note_file": "zhihu_010.md"
+  }
+]
+

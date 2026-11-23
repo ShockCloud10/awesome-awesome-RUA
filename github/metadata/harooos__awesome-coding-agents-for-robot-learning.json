@@ -1,0 +1,27 @@
+{
+  "id": "github-003",
+  "title": "harooos/awesome-coding-agents-for-robot-learning",
+  "url": "https://github.com/harooos/awesome-coding-agents-for-robot-learning",
+  "platform": "github",
+  "author": "harooos",
+  "accessed_at": "2026-11-23",
+  "category": "核心 coding agent",
+  "summary_zh": "围绕 coding agent 操作机器人、生成策略代码、构建环境、评估和改进策略组织资料。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/harooos/awesome-coding-agents-for-robot-learning"
+  ],
+  "local_path": "github/repos/harooos__awesome-coding-agents-for-robot-learning",
+  "readme_path": "github/repos/harooos__awesome-coding-agents-for-robot-learning/README.md",
+  "clone_type": "shallow",
+  "commit": "7b3505e73983a58260658e39908d0847a7264c6f",
+  "commit_date": "2026-10-30T22:45:48+08:00",
+  "branch": "main",
+  "remote": "https://github.com/harooos/awesome-coding-agents-for-robot-learning.git",
+  "license": "MIT",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "2d770304eec0b0a725e3a7189050e212cf99ed1b7a80e7b5ba176d01d469804e",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

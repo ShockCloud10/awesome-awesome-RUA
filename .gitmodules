@@ -1,0 +1,54 @@
+[submodule "github/repos/kairunwen__Awesome-Robot-Use-Agent"]
+	path = github/repos/kairunwen__Awesome-Robot-Use-Agent
+	url = https://github.com/kairunwen/Awesome-Robot-Use-Agent.git
+	shallow = true
+
+[submodule "github/repos/zjwzcx__Awesome-Astra-Embodied-AI"]
+	path = github/repos/zjwzcx__Awesome-Astra-Embodied-AI
+	url = https://github.com/zjwzcx/Awesome-Astra-Embodied-AI.git
+	shallow = true
+
+[submodule "github/repos/harooos__awesome-coding-agents-for-robot-learning"]
+	path = github/repos/harooos__awesome-coding-agents-for-robot-learning
+	url = https://github.com/harooos/awesome-coding-agents-for-robot-learning.git
+	shallow = true
+
+[submodule "github/repos/benchflow-ai__awesome-embodied-agents"]
+	path = github/repos/benchflow-ai__awesome-embodied-agents
+	url = https://github.com/benchflow-ai/awesome-embodied-agents.git
+	shallow = true
+
+[submodule "github/repos/chonghanqin__Awesome-Agentic-Robots"]
+	path = github/repos/chonghanqin__Awesome-Agentic-Robots
+	url = https://github.com/chonghanqin/Awesome-Agentic-Robots.git
+	shallow = true
+
+[submodule "github/repos/Lin-Murphy__Awesome-Robot-Agents"]
+	path = github/repos/Lin-Murphy__Awesome-Robot-Agents
+	url = https://github.com/Lin-Murphy/Awesome-Robot-Agents.git
+	shallow = true
+
+[submodule "github/repos/GT-RIPL__Awesome-LLM-Robotics"]
+	path = github/repos/GT-RIPL__Awesome-LLM-Robotics
+	url = https://github.com/GT-RIPL/Awesome-LLM-Robotics.git
+	shallow = true
+
+[submodule "github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent"]
+	path = github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent
+	url = https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent.git
+	shallow = true
+
+[submodule "github/repos/Neal2020GitHub__awesome-embodied-agents"]
+	path = github/repos/Neal2020GitHub__awesome-embodied-agents
+	url = https://github.com/Neal2020GitHub/awesome-embodied-agents.git
+	shallow = true
+
+[submodule "github/repos/cagbal__awesome-foundation-models-for-robotics"]
+	path = github/repos/cagbal__awesome-foundation-models-for-robotics
+	url = https://github.com/cagbal/awesome-foundation-models-for-robotics.git
+	shallow = true
+
+[submodule "github/repos/keon__awesome-physical-ai"]
+	path = github/repos/keon__awesome-physical-ai
+	url = https://github.com/keon/awesome-physical-ai.git
+	shallow = true

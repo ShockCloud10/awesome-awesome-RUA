@@ -1,0 +1,27 @@
+[
+  {
+    "title": "[Paper Notes] An Unexpected Robot Policy",
+    "url": "https://davidlxu.github.io/posts/2026/11/roboprobe-llm-as-policy-paper-notes/",
+    "status": "not_opened",
+    "reason": "搜索发现的二手笔记，当前博客集合优先一手作者。"
+  },
+  {
+    "title": "Robot-Use Agents (RUA) - He Ye",
+    "url": "https://heye.me/research-notes/rua/",
+    "status": "not_opened",
+    "reason": "有用的二手阅读导引，待后续检查。"
+  },
+  {
+    "title": "Claude Code As Embodied Agent to Control Robots",
+    "url": "https://medium.com/@brianytsui/claude-code-as-embodied-agent-to-control-robots-85-96-success-in-sim-with-zero-demonstration-455a9044d353",
+    "status": "not_opened",
+    "reason": "搜索索引可见，仅仿真；未纳入已读博客。"
+  },
+  {
+    "title": "Stringman and Claude Opus 5.5",
+    "url": "https://www.parasmadan.in/blog/stringman-claude-opus-robot-cleanup-demo",
+    "status": "not_opened",
+    "reason": "二手项目介绍，待核对原作者与演示。"
+  }
+]
+

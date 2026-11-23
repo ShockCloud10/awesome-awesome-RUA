@@ -1,0 +1,27 @@
+[
+  {
+    "title": "GPT-6真敢杀人啊！推下天台，挥刀扎人不眨眼",
+    "url": "https://zhuanlan.zhihu.com/p/2085431919886582758",
+    "status": "snippet_only",
+    "reason": "原页超时；混合仿真与实物安全评估，标题容易误导，待与完整实验原文核对。"
+  },
+  {
+    "title": "飞络24小时前沿AI快报｜9月28日",
+    "url": "https://zhuanlan.zhihu.com/p/2087846069086446942",
+    "status": "snippet_only",
+    "reason": "原页超时；HomeBody 的直接控制描述缺少本次核验的一手支持。"
+  },
+  {
+    "title": "302.AI GPT-6 Astra Computer Use 实测",
+    "url": "https://zhuanlan.zhihu.com/p/2081083094136894659",
+    "status": "excluded",
+    "reason": "主要是电脑操作，不是物理机器人控制。"
+  },
+  {
+    "title": "感谢用GPT-6搓3D的！燃烧自己的token换来一次全体重置",
+    "url": "https://zhuanlan.zhihu.com/p/2080655698317276471",
+    "status": "excluded",
+    "reason": "主要为游戏和 3D 生成，不属于机器人控制。"
+  }
+]
+

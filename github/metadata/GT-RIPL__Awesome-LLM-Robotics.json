@@ -1,0 +1,27 @@
+{
+  "id": "github-007",
+  "title": "GT-RIPL/Awesome-LLM-Robotics",
+  "url": "https://github.com/GT-RIPL/Awesome-LLM-Robotics",
+  "platform": "github",
+  "author": "GT-RIPL",
+  "accessed_at": "2026-11-23",
+  "category": "基础 LLM robotics",
+  "summary_zh": "汇总语言与多模态模型在机器人推理、规划、操作、导航及强化学习中的研究。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/GT-RIPL/Awesome-LLM-Robotics"
+  ],
+  "local_path": "github/repos/GT-RIPL__Awesome-LLM-Robotics",
+  "readme_path": "github/repos/GT-RIPL__Awesome-LLM-Robotics/README.md",
+  "clone_type": "shallow",
+  "commit": "cf3ae761787adbb3fd0245c175bce5df88dc0c34",
+  "commit_date": "2026-10-29T00:41:09-04:00",
+  "branch": "main",
+  "remote": "https://github.com/GT-RIPL/Awesome-LLM-Robotics.git",
+  "license": "BSD-3-Clause",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "de376611cdd905e394bd2427ed8084fa84f90c9087fb13ea259ebfb38c273141",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "github-004",
+  "title": "benchflow-ai/awesome-embodied-agents",
+  "url": "https://github.com/benchflow-ai/awesome-embodied-agents",
+  "platform": "github",
+  "author": "benchflow-ai",
+  "accessed_at": "2026-11-23",
+  "category": "核心 agent policy",
+  "summary_zh": "覆盖 agent 作为机器人策略的执行接口、模型与评测；条目附有评测条件和实现链接。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/benchflow-ai/awesome-embodied-agents"
+  ],
+  "local_path": "github/repos/benchflow-ai__awesome-embodied-agents",
+  "readme_path": "github/repos/benchflow-ai__awesome-embodied-agents/README.md",
+  "clone_type": "shallow",
+  "commit": "ba7d64b9d17fa39ce71d249ec8f54891ab83a357",
+  "commit_date": "2026-10-23T00:10:05-07:00",
+  "branch": "main",
+  "remote": "https://github.com/benchflow-ai/awesome-embodied-agents.git",
+  "license": "CC0-1.0",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "631656739f4ddeeee673d8fc2d2b0a46395ad09d8ed924b9527f32d5825a3c42",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

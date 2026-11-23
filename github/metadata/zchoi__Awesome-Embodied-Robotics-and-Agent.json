@@ -1,0 +1,27 @@
+{
+  "id": "github-008",
+  "title": "zchoi/Awesome-Embodied-Robotics-and-Agent",
+  "url": "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent",
+  "platform": "github",
+  "author": "zchoi",
+  "accessed_at": "2026-11-23",
+  "category": "扩展 embodied agents",
+  "summary_zh": "覆盖 VLM、LLM、VLA、规划、导航及自演化等具身研究，也包含部分游戏和数字环境工作。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent"
+  ],
+  "local_path": "github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent",
+  "readme_path": "github/repos/zchoi__Awesome-Embodied-Robotics-and-Agent/README.md",
+  "clone_type": "shallow",
+  "commit": "3d7f742c95d6132a7226563147124b141e8d1729",
+  "commit_date": "2026-11-22T11:38:14+08:00",
+  "branch": "main",
+  "remote": "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent.git",
+  "license": "Apache-2.0",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "c053485a0a10962d18e82bbc1581c7e0fe5998cb23d8566e3cb9db8e41c7bf6c",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

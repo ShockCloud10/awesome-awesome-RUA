@@ -1,0 +1,27 @@
+{
+  "id": "github-001",
+  "title": "kairunwen/Awesome-Robot-Use-Agent",
+  "url": "https://github.com/kairunwen/Awesome-Robot-Use-Agent",
+  "platform": "github",
+  "author": "kairunwen",
+  "accessed_at": "2026-11-23",
+  "category": "核心 RUA",
+  "summary_zh": "直接围绕 Robot Use Agent 汇集论文、博客、工具、基准和社交演示，是本次资料的首要入口。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/kairunwen/Awesome-Robot-Use-Agent"
+  ],
+  "local_path": "github/repos/kairunwen__Awesome-Robot-Use-Agent",
+  "readme_path": "github/repos/kairunwen__Awesome-Robot-Use-Agent/README.md",
+  "clone_type": "shallow",
+  "commit": "566ed8a2a874694e8034004ca5466a28ff9a657f",
+  "commit_date": "2026-11-17T12:33:14+08:00",
+  "branch": "main",
+  "remote": "https://github.com/kairunwen/Awesome-Robot-Use-Agent.git",
+  "license": "MIT",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "b3626db62397cef17afbfe98e503a7467c66c1ae77b0afa001ca0ae8d989e715",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

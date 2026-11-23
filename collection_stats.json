@@ -1,0 +1,41 @@
+{
+  "accessed_at": "2026-11-23",
+  "timezone": "Asia/Hong_Kong",
+  "counts": {
+    "github": 11,
+    "x": 15,
+    "reddit": 16,
+    "zhihu": 10,
+    "blogs": 18
+  },
+  "total": 70,
+  "evidence_status_counts": {
+    "github": {
+      "local_clone_readme_verified": 11
+    },
+    "x": {
+      "primary_project_crosschecked": 6,
+      "mirror_post_read_and_primary_crosschecked": 1,
+      "secondary_page_read": 1,
+      "snippet_only": 5,
+      "mirror_post_read": 2
+    },
+    "reddit": {
+      "page_read": 16
+    },
+    "zhihu": {
+      "snippet_only": 9,
+      "page_read": 1
+    },
+    "blogs": {
+      "page_read": 18
+    }
+  },
+  "checks": [
+    "JSON 可解析",
+    "条目 ID 唯一",
+    "每平台主链接去重",
+    "本地笔记存在",
+    "每条都有摘要与证据链接"
+  ]
+}

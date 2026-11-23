@@ -1,0 +1,164 @@
+{
+  "accessed_at": "2026-11-23",
+  "method": "web search + open；记录查询与入选/候选链接，不是搜索结果全集或网页全文",
+  "searches": [
+    {
+      "platform": "blogs",
+      "queries": [
+        "robotic use agents robot Claude blog",
+        "robotics Claude Opus robot control blog",
+        "Astra Fable robot control agent blog"
+      ],
+      "selected_result_urls": [
+        "https://www.withplayground.ai/research/how-should-we-use-llms-for-robot-control",
+        "https://www.mecka.ai/blog/wetlab",
+        "https://www.anthropic.com/research/claude-plays-robotics",
+        "https://www.anthropic.com/research/project-fetch-phase-two",
+        "https://irvin.quest/distilling-zero-shot-control/"
+      ]
+    },
+    {
+      "platform": "blogs",
+      "queries": [
+        "\"RoboDojo\" \"An Unexpected Robot Policy\"",
+        "\"robot-use agents\" Isola"
+      ],
+      "selected_result_urls": [
+        "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+        "https://robodojo-benchmark.com/report",
+        "https://heye.me/research-notes/rua/",
+        "https://davidlxu.github.io/posts/2026/11/roboprobe-llm-as-policy-paper-notes/"
+      ]
+    },
+    {
+      "platform": "blogs",
+      "queries": [
+        "site:deepmind.google blog Gemini Robotics 1.5 embodied agents",
+        "site:microsoft.com research ChatGPT robotics design principles models",
+        "site:research.google blog Code as Policies robot language models"
+      ],
+      "selected_result_urls": [
+        "https://www.microsoft.com/en-us/research/articles/chatgpt-for-robotics/",
+        "https://www.research.google/blog/robots-that-write-their-own-code/",
+        "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+        "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+        "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+      ]
+    }
+  ],
+  "direct_open_log": [
+    {
+      "url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.withplayground.ai/research/how-should-we-use-llms-for-robot-control",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.mecka.ai/blog/wetlab",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.anthropic.com/research/claude-plays-robotics",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.waddlelabs.ai/research/introducing-waddle",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://anthropic.robocurve.org/fable-5.1/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://irvin.quest/distilling-zero-shot-control/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/articles/chatgpt-for-robotics/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.research.google/blog/robots-that-write-their-own-code/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://www.pi.website/blog/pi05",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    },
+    {
+      "url": "https://dhvanil.com/pb27",
+      "status": "page_read",
+      "details": "已读取页面正文；不代表独立复现实验"
+    }
+  ],
+  "followed_links": [
+    {
+      "from": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+      "to": [
+        "https://www.waddlelabs.ai/research/introducing-waddle",
+        "https://openai.robocurve.org/gpt-6-astra/"
+      ]
+    },
+    {
+      "from": "https://openai.robocurve.org/gpt-6-astra/",
+      "to": [
+        "https://anthropic.robocurve.org/fable-5.1/"
+      ]
+    },
+    {
+      "from": "其他并行检索的直接线索",
+      "to": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+        "https://dhvanil.com/pb27"
+      ]
+    }
+  ]
+}
+

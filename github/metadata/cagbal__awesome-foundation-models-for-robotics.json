@@ -1,0 +1,25 @@
+{
+  "id": "github-010",
+  "title": "cagbal/awesome-foundation-models-for-robotics",
+  "url": "https://github.com/cagbal/awesome-foundation-models-for-robotics",
+  "platform": "github",
+  "author": "cagbal",
+  "accessed_at": "2026-11-23",
+  "category": "基础模型",
+  "summary_zh": "按模型整理机器人基础模型及输入输出模态，便于补充 VLA 与通用 agent 的技术背景。维护者提示条目可能含 AI 辅助整理错误。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/cagbal/awesome-foundation-models-for-robotics"
+  ],
+  "local_path": "github/repos/cagbal__awesome-foundation-models-for-robotics",
+  "readme_path": "github/repos/cagbal__awesome-foundation-models-for-robotics/README.md",
+  "clone_type": "shallow",
+  "commit": "8a4d2e2543e52470db69ea8bb3e35c7139036499",
+  "commit_date": "2026-09-18T10:59:13+02:00",
+  "branch": "main",
+  "remote": "https://github.com/cagbal/awesome-foundation-models-for-robotics.git",
+  "license": null,
+  "license_files": [],
+  "readme_sha256": "5bf7a65fae6591380ce39ffdde71336368fd16fc7cb8f6296cb92d46dc69bff2",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。 未在仓库根目录发现许可证文件。"
+}

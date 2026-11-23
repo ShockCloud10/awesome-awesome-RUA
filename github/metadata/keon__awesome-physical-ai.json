@@ -1,0 +1,27 @@
+{
+  "id": "github-011",
+  "title": "keon/awesome-physical-ai",
+  "url": "https://github.com/keon/awesome-physical-ai",
+  "platform": "github",
+  "author": "keon",
+  "accessed_at": "2026-11-23",
+  "category": "基础模型与 Physical AI",
+  "summary_zh": "覆盖 VLA、世界模型、动作表示和机器人基础模型，用作相邻技术路线的文献入口。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/keon/awesome-physical-ai"
+  ],
+  "local_path": "github/repos/keon__awesome-physical-ai",
+  "readme_path": "github/repos/keon__awesome-physical-ai/README.md",
+  "clone_type": "shallow",
+  "commit": "a6f62d11d9e7d1336a04927e86e3fbedc25a8456",
+  "commit_date": "2026-06-24T07:11:57-04:00",
+  "branch": "main",
+  "remote": "https://github.com/keon/awesome-physical-ai.git",
+  "license": "CC0-1.0",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "693fd0b57a9bc74e0414f9256bf32dd88cc3b21b9f5c52a214b15a26ccbe08d2",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

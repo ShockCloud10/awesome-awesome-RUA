@@ -1,0 +1,42 @@
+[
+  {
+    "title": "VIA Visual Interface Agent for Robot Control",
+    "url": "https://x.com/HengyuanH/status/2077128122529673312",
+    "evidence_url": "https://source.twstalker.com/HengyuanH/status/2077128122529673312",
+    "status": "mirror_post_read_scope_uncertain",
+    "reason": "镜像可读，涉及 Claude Code/Codex、Opus/Fable 与 MCP 视觉界面；回复暗示实机部署仍待实现，未核定主要实验是仿真还是实机，先置候选。"
+  },
+  {
+    "title": "Hanming Ye Opus 5 zero demonstrations",
+    "url": null,
+    "evidence_url": "https://m.twstalker.com/DozenDucc",
+    "status": "snippet_only_missing_permalink",
+    "reason": "检索摘要提到 Opus 5 零示范控机器人，但未定位具体 X status；不补造链接或版本。Waddle 官方博客已单独交由主任务整理。"
+  },
+  {
+    "title": "OpenAI Developers Scav 远程机械臂",
+    "url": null,
+    "evidence_url": "https://search.yahoo.co.jp/realtime/search?btid=MjEwMjMyNjg0MDc0MDE5NjYxNQ%3D%3D&ei=UTF-8&fr=rts_ddtw&nobtl=1&p=astra&rkf=2",
+    "status": "snippet_only_missing_permalink",
+    "reason": "找到 OpenAIDevs 引用摘要，未确定原始 status ID。"
+  },
+  {
+    "title": "GPT-Policy real-robot one-demo policy",
+    "url": null,
+    "evidence_url": "https://m.twstalker.com/z_code68632",
+    "status": "snippet_only_missing_permalink",
+    "reason": "镜像检索显示作者机器人插入/拧盖等示例，原帖具体 status 未确定。"
+  },
+  {
+    "title": "Fable 5.2 MS Paint drawing",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1xvghd1/fable_52_painting_in_ms_paint/",
+    "status": "excluded_computer_use",
+    "reason": "仅控制屏幕绘画软件，无实体机器人，不纳入。"
+  },
+  {
+    "title": "Opus Blender robot octopus",
+    "url": "https://x.com/0x_fokki/status/2116289885870981296",
+    "status": "excluded_asset_generation",
+    "reason": "机器人造型/动画资产，不构成机器人控制实验，不纳入。"
+  }
+]

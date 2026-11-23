@@ -1,0 +1,559 @@
+[
+  {
+    "id": "blog_001",
+    "title": "Robot-Use Agents",
+    "url": "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html",
+    "author": "Phillip Isola",
+    "published_at": "2026-09-07",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude",
+      "Fable",
+      "Astra"
+    ],
+    "robot": "多种机器人",
+    "control_layer": "机器人作为可调用工具",
+    "setting": "concept",
+    "summary_zh": "提出 RUA 范式：通用智能体经传感器和执行器接口使用机器人。讨论云端模型更新如何扩散到不同本体，并链接 Waddle、Robocurve 等实测。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://web.mit.edu/phillipi/www/writing/robot-use-agents.html"
+    ],
+    "limitations": "观点文章；作者同时指出推理延迟和可靠性仍是约束，不能视为实机性能评测。",
+    "tags": [
+      "RUA",
+      "范式",
+      "必读"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_001.md"
+  },
+  {
+    "id": "blog_002",
+    "title": "How Should We Use LLMs for Robot Control?",
+    "url": "https://www.withplayground.ai/research/how-should-we-use-llms-for-robot-control",
+    "author": "Playground research",
+    "published_at": "2026-11-12",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude Fable 5.2",
+      "GPT-6 Astra"
+    ],
+    "robot": "LIBERO 仿真机械臂",
+    "control_layer": "代码策略 / 手写网络权重 / 逐步闭环动作",
+    "setting": "simulation",
+    "summary_zh": "在十项 LIBERO 操作任务上对比三种控制方式，展示相同基模因控制接口而表现不同。Fable 的代码策略在严格成功判据下优于在线逐步控制；Astra 写策略更快。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.withplayground.ai/research/how-should-we-use-llms-for-robot-control"
+    ],
+    "limitations": "只评测十项任务，每种策略生成仅一次；实机泛化未经该实验验证，π0.5 是论文参考分而非同场复测。",
+    "tags": [
+      "Fable",
+      "Astra",
+      "代码策略",
+      "基准"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_002.md"
+  },
+  {
+    "id": "blog_003",
+    "title": "Are Astra, Fable 5.1 and Opus 5.5 ready for science lab tasks?",
+    "url": "https://www.mecka.ai/blog/wetlab",
+    "author": "Harshavardhan Reddy Gajarla 等，Mecka",
+    "published_at": "2026-09-24",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5.1",
+      "Claude Opus 5.5"
+    ],
+    "robot": "两套 YAM 双臂平台",
+    "control_layer": "末端位置 / 姿态 / 夹爪目标",
+    "setting": "physical",
+    "summary_zh": "真实实验室九项操作任务共 540 次尝试，模型读取俯视、腕部相机和本体状态后请求动作。报告完整成功率、失败形态、耗时和成本，适合比较通用基模的实物操作。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.mecka.ai/blog/wetlab"
+    ],
+    "limitations": "成功率依赖具体任务和人工判据；机器人控制器负责执行，不能等同模型直接输出电机力矩。",
+    "tags": [
+      "Astra",
+      "Fable",
+      "Opus",
+      "实机",
+      "实验室"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_003.md"
+  },
+  {
+    "id": "blog_004",
+    "title": "Claude plays robotics",
+    "url": "https://www.anthropic.com/research/claude-plays-robotics",
+    "author": "Shmuel Berman、Michael Ilie、Jia Deng、Daniel Freeman",
+    "published_at": "2026-07-09",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude Opus 4.5",
+      "Claude Opus 4.6",
+      "Claude Opus 4.7",
+      "Claude Mythos Preview"
+    ],
+    "robot": "Unitree Go2 / 人形与机械臂仿真",
+    "control_layer": "力矩 / Python 控制器 / 训练策略 / 高层策略监督",
+    "setting": "mixed",
+    "summary_zh": "系统评估同一基模在不同本体与动作抽象层上的能力。原文区分直接控制、编写控制程序与调用预训练策略，并包含真实 Go2 导航和仿真操作实验。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.anthropic.com/research/claude-plays-robotics"
+    ],
+    "limitations": "各实验本体、接口不同，不能把综合分或仿真表现视为真实机器人统一成功率。",
+    "tags": [
+      "Opus",
+      "实机",
+      "仿真",
+      "接口"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_004.md"
+  },
+  {
+    "id": "blog_005",
+    "title": "Project Fetch: Phase two",
+    "url": "https://www.anthropic.com/research/project-fetch-phase-two",
+    "author": "Michael Ilie、C. Daniel Freeman、Kevin K. Troy",
+    "published_at": "2026-06-18",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude Opus 4.7",
+      "Claude Code"
+    ],
+    "robot": "Unitree Go2 机器狗",
+    "control_layer": "设备接入 / 感知程序 / 高层控制",
+    "setting": "physical",
+    "summary_zh": "重访机器狗实验，测试 Opus 4.7 自行接通视频和激光雷达、生成控制程序和识别球等步骤。适合研究 coding agent 如何从接口调试走到机器人操作。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.anthropic.com/research/project-fetch-phase-two"
+    ],
+    "limitations": "研究者仍负责接线、批准命令与切换任务；原文明确未评估从零建立低层执行策略。",
+    "tags": [
+      "Opus",
+      "Claude Code",
+      "机器狗"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_005.md"
+  },
+  {
+    "id": "blog_006",
+    "title": "Previewing the Model Hardware Standard",
+    "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+    "author": "Anthropic",
+    "published_at": "2026-08-27",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude"
+    ],
+    "robot": "机械臂 / 显微镜 / 实验仪器",
+    "control_layer": "MHS 驱动经 MCP、CLI、API 暴露工具",
+    "setting": "physical",
+    "summary_zh": "介绍将硬件描述、状态和可执行操作统一给智能体的 MHS。模型可探索设备行为、读取反馈并编写重复执行脚本，覆盖实验仪器及机器人工作流。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+    ],
+    "limitations": "发布时为研究预览；长时和快速动作可由生成代码执行，模型并非每步都在线推理。",
+    "tags": [
+      "接口",
+      "MCP",
+      "硬件工具"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_006.md"
+  },
+  {
+    "id": "blog_007",
+    "title": "Claude Fable 5.2 and Mythos 5.2",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "author": "Anthropic",
+    "published_at": "2026-11-09",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude Fable 5.2",
+      "Claude Fable 5.1",
+      "Claude Opus 5.5",
+      "GPT-6 Astra"
+    ],
+    "robot": "实体机械臂与 RoboDojo 双臂仿真",
+    "control_layer": "多模态机器人控制",
+    "setting": "mixed",
+    "summary_zh": "模型发布文章的机器人章节展示拧瓶盖、解拼图和绘画，另给出同一 harness 下的 RoboDojo Sim 内部评测。可追踪 Fable 与 Opus、Astra 的机器人能力对比。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    ],
+    "limitations": "实机展示与仿真分数是两种证据；RoboDojo 分数来自厂商内部运行，不宜直接与不同配置榜单混比。",
+    "tags": [
+      "Fable",
+      "Opus",
+      "Astra",
+      "实机",
+      "RoboDojo"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_007.md"
+  },
+  {
+    "id": "blog_008",
+    "title": "Introducing Waddle: agents that control robots",
+    "url": "https://www.waddlelabs.ai/research/introducing-waddle",
+    "author": "Hanming Ye、Yiding Song",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "LLM agents"
+    ],
+    "robot": "xArm 等实体机械臂",
+    "control_layer": "代码策略并可调用 VLA 工具",
+    "setting": "physical",
+    "summary_zh": "提出智能体读取相机、拆解任务、编写控制代码并按需调用动作模型的体系。展示折衣、USB 插入、包裹处理等实机任务，强调可编辑的程序与反馈重规划。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.waddlelabs.ai/research/introducing-waddle"
+    ],
+    "limitations": "网页引用信息只给出 2026 年 7 月，未给精确发布日期；展示范围不能支持任意本体零成本泛化。",
+    "tags": [
+      "RUA",
+      "代码策略",
+      "VLA",
+      "实机"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_008.md"
+  },
+  {
+    "id": "blog_009",
+    "title": "GPT-6 Astra on robotic manipulation",
+    "url": "https://openai.robocurve.org/gpt-6-astra/",
+    "author": "Achu Menon、Sravanthi Machcha、Sabrina Zou、Tzu Kit Chan、Jay Chooi",
+    "published_at": "2026-09-04",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Fable 5",
+      "Claude Fable 5.1"
+    ],
+    "robot": "YAM 双臂",
+    "control_layer": "Inspect Robots 末端目标工具",
+    "setting": "physical",
+    "summary_zh": "用同一机械臂和工具接口比较 Astra 与 Fable。Astra 在积木入碗完成 19/20 次，精密拼图入槽仅 2/20 次，体现语义操作与接触精度的差异。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://openai.robocurve.org/gpt-6-astra/"
+    ],
+    "limitations": "每模型每任务仅二十次；95% 只适用于积木入碗，不能泛化成全部机器人任务成功率。",
+    "tags": [
+      "Astra",
+      "Fable",
+      "实机",
+      "基准"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_009.md"
+  },
+  {
+    "id": "blog_010",
+    "title": "Comparing Fable 5.1 to Fable 5 on robotic manipulation",
+    "url": "https://anthropic.robocurve.org/fable-5.1/",
+    "author": "Achu Menon、Sravanthi Machcha、Sabrina Zou、Tzu Kit Chan、Jay Chooi",
+    "published_at": "2026-09-03",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude Fable 5",
+      "Claude Fable 5.1"
+    ],
+    "robot": "YAM 双臂",
+    "control_layer": "图像反馈与末端目标控制",
+    "setting": "physical",
+    "summary_zh": "对比两代 Fable 在积木入碗、拼图入槽上的表现，保留全部八十次运行及回放入口。Fable 5.1 更常完成任务，但最后插入阶段仍明显困难。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://anthropic.robocurve.org/fable-5.1/"
+    ],
+    "limitations": "样本小且只有两项任务；成功展示与整组统计应一起阅读。",
+    "tags": [
+      "Fable",
+      "实机",
+      "可回放"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_010.md"
+  },
+  {
+    "id": "blog_011",
+    "title": "Claude as a Robot Teacher",
+    "url": "https://irvin.quest/distilling-zero-shot-control/",
+    "author": "Irvin Hwang",
+    "published_at": "2026-05-30",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Claude Opus",
+      "Claude Code"
+    ],
+    "robot": "带相机的实体机械臂",
+    "control_layer": "世界模型候选预测 + Claude 选择 + 行为克隆",
+    "setting": "physical",
+    "summary_zh": "作者先让 Claude 比较世界模型预测的候选动作，再以其生成的数据训练快速控制器，实现将物体居中。也尝试让智能体组织采集、训练与验证流程。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://irvin.quest/distilling-zero-shot-control/"
+    ],
+    "limitations": "任务限于物体居中；作者报告慢控制器受环境变化影响，最终快速控制由蒸馏模型完成。",
+    "tags": [
+      "Opus",
+      "world model",
+      "蒸馏",
+      "实机"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_011.md"
+  },
+  {
+    "id": "blog_012",
+    "title": "ChatGPT for Robotics: Design Principles and Model Abilities",
+    "url": "https://www.microsoft.com/en-us/research/articles/chatgpt-for-robotics/",
+    "author": "Sai Vemprala、Rogerio Bonatti、Arthur Bucker、Ashish Kapoor",
+    "published_at": "2023-02-20",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "ChatGPT"
+    ],
+    "robot": "机械臂 / 无人机 / 移动机器人",
+    "control_layer": "自然语言转高层 API 调用与控制代码",
+    "setting": "mixed",
+    "summary_zh": "早期第一手教程型文章：通过描述明确的机器人函数库、结构化提示和人类反馈，生成操作与导航程序，并发布 PromptCraft 资源。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.microsoft.com/en-us/research/articles/chatgpt-for-robotics/"
+    ],
+    "limitations": "实验依赖已有高层控制库和监督；不同示例包括仿真与实体系统。",
+    "tags": [
+      "ChatGPT",
+      "历史脉络",
+      "代码生成"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_012.md"
+  },
+  {
+    "id": "blog_013",
+    "title": "Robots That Write Their Own Code",
+    "url": "https://www.research.google/blog/robots-that-write-their-own-code/",
+    "author": "Jacky Liang、Andy Zeng",
+    "published_at": "2022-11-02",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "代码语言模型"
+    ],
+    "robot": "Everyday Robots 等机器人",
+    "control_layer": "Code as Policies",
+    "setting": "physical",
+    "summary_zh": "Google 原始 CaP 博客说明如何把自然语言转为 Python 程序，组合感知和动作 API、生成辅助函数与反馈循环，为今天的机器人 coding agent 提供方法源头。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.research.google/blog/robots-that-write-their-own-code/"
+    ],
+    "limitations": "依赖现有感知与控制模块；不表示语言模型独立解决全部底层机器人问题。",
+    "tags": [
+      "CaP",
+      "代码策略",
+      "历史脉络"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_013.md"
+  },
+  {
+    "id": "blog_014",
+    "title": "Gemini Robotics 1.5 brings AI agents into the physical world",
+    "url": "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/",
+    "author": "Carolina Parada",
+    "published_at": "2025-09-25",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Gemini Robotics 1.5",
+      "Gemini Robotics-ER 1.5"
+    ],
+    "robot": "双臂机器人 / Apollo",
+    "control_layer": "ER 高层规划与工具调用 + VLA 动作",
+    "setting": "physical",
+    "summary_zh": "官方解释 ER 模型如何检索信息、规划步骤和检查进度，再以自然语言子任务调用 VLA。垃圾分类示例展示网络工具与物理动作的组合。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://deepmind.google/blog/gemini-robotics-15-brings-ai-agents-into-the-physical-world/"
+    ],
+    "limitations": "两种模型分别为机器人角色微调，属于专用具身模型协作体系。",
+    "tags": [
+      "Gemini",
+      "VLA",
+      "分层控制"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_014.md"
+  },
+  {
+    "id": "blog_015",
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "author": "Laura Graesser、Peng Xu",
+    "published_at": "2026-04-14",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Gemini Robotics-ER 1.6"
+    ],
+    "robot": "机器人视觉与仪表读取系统",
+    "control_layer": "高层空间推理 / 成功检测 / 工具调用",
+    "setting": "physical",
+    "summary_zh": "聚焦机器人高层推理能力，包括多视角理解、成功检测和仪表读取；模型可调用搜索、VLA 和开发者函数，连接感知判断与下一步执行。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://deepmind.google/blog/gemini-robotics-er-1-6/"
+    ],
+    "limitations": "多数结果衡量感知与判断，不能等同端到端机械操作成功率。",
+    "tags": [
+      "Gemini",
+      "具身推理",
+      "成功检测"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_015.md"
+  },
+  {
+    "id": "blog_016",
+    "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "author": "Carolina Parada",
+    "published_at": "2026-07-30",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "Gemini Robotics 2",
+      "Gemini Robotics ER 2",
+      "Gemini Robotics On-Device 2"
+    ],
+    "robot": "Apollo / 双臂 / 人形机器人",
+    "control_layer": "ER 任务规划 + 全身 VLA 控制",
+    "setting": "physical",
+    "summary_zh": "介绍 ER、VLA 和本地模型组合，覆盖全身运动、灵巧操作和多机器人协作。适合与通用 coding agent 直接控制路线作架构对照。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+    ],
+    "limitations": "跨本体适配仍涉及数据；发布展示与统一实机基准应区分。",
+    "tags": [
+      "Gemini",
+      "人形机器人",
+      "VLA"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_016.md"
+  },
+  {
+    "id": "blog_017",
+    "title": "π0.5: a VLA with Open-World Generalization",
+    "url": "https://www.pi.website/blog/pi05",
+    "author": "Physical Intelligence 研究团队",
+    "published_at": "2025-04-22",
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "π0.5"
+    ],
+    "robot": "移动操作与固定机械臂",
+    "control_layer": "VLA 高层子任务与低层动作预测",
+    "setting": "physical",
+    "summary_zh": "介绍异质数据联合训练，让机器人在未见家庭环境中整理物品、清洁和执行长程任务。作为机器人基模路线资料，可与无需机器人训练的 RUA 比较。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://www.pi.website/blog/pi05"
+    ],
+    "limitations": "这是经机器人数据训练的 VLA，不是通用聊天模型零样本接管；作者也强调泛化尚不完美。",
+    "tags": [
+      "基模",
+      "VLA",
+      "泛化"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_017.md"
+  },
+  {
+    "id": "blog_018",
+    "title": "PB27 — Paintings by coding agents",
+    "url": "https://dhvanil.com/pb27",
+    "author": "Dhvanil",
+    "published_at": null,
+    "accessed_at": "2026-11-23",
+    "platform": "blog",
+    "models": [
+      "GPT-6 Astra",
+      "Claude Opus",
+      "Claude Fable",
+      "Codex",
+      "Claude Code"
+    ],
+    "robot": "UFactory xArm 7",
+    "control_layer": "智能体规划和工具调用 + 校验后的轨迹执行器",
+    "setting": "physical",
+    "summary_zh": "作者以时间线、作品和日志展示编码智能体操纵机械臂绘画、调色和校准。Astra 与 Claude 的方案经过工作台数字孪生检查，再交执行器运行。",
+    "evidence_status": "page_read",
+    "evidence_urls": [
+      "https://dhvanil.com/pb27"
+    ],
+    "limitations": "自 2026 年 9 月起模型不在实时运动环内；项目代码未公开，页面为持续更新的项目记录。",
+    "tags": [
+      "Astra",
+      "Opus",
+      "Fable",
+      "绘画",
+      "实机"
+    ],
+    "source_type": "primary",
+    "archive_type": "摘要与来源链接",
+    "note_file": "blog_018.md"
+  }
+]
+

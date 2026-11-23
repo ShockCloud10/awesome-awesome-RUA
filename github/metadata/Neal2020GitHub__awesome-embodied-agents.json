@@ -1,0 +1,27 @@
+{
+  "id": "github-009",
+  "title": "Neal2020GitHub/awesome-embodied-agents",
+  "url": "https://github.com/Neal2020GitHub/awesome-embodied-agents",
+  "platform": "github",
+  "author": "Neal2020GitHub",
+  "accessed_at": "2026-11-23",
+  "category": "扩展 embodied agents",
+  "summary_zh": "从记忆、推理、规划、主动感知、导航和操作等维度整理 VLM/LLM 具身 agent。",
+  "evidence_status": "local_clone_readme_verified",
+  "evidence_urls": [
+    "https://github.com/Neal2020GitHub/awesome-embodied-agents"
+  ],
+  "local_path": "github/repos/Neal2020GitHub__awesome-embodied-agents",
+  "readme_path": "github/repos/Neal2020GitHub__awesome-embodied-agents/README.md",
+  "clone_type": "shallow",
+  "commit": "5df1e7643f50bba67f952353c36cfaf8882dba85",
+  "commit_date": "2026-05-21T14:56:59+08:00",
+  "branch": "main",
+  "remote": "https://github.com/Neal2020GitHub/awesome-embodied-agents.git",
+  "license": "MIT",
+  "license_files": [
+    "LICENSE"
+  ],
+  "readme_sha256": "8b675d1c55bd442ba97e3a7a6317c96acb7564e7bd75a202a063dc77916ad9f1",
+  "limitations": "仓库清单中的每项研究未逐一复现；仓库下载成功与其研究结果得到独立验证是不同事项。"
+}

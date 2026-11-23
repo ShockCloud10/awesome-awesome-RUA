@@ -1,0 +1,32 @@
+{
+  "accessed_at": "2026-11-23",
+  "method": "公开网页搜索发现仓库；打开 GitHub 或项目页后 git clone --depth 1；本地检查 README、remote、commit、工作树及许可证文件。",
+  "queries": [
+    "github awesome robotic use agent RUA",
+    "github awesome LLM robotics embodied agents foundation models robot control",
+    "\"robotic use\" \"agent\" github",
+    "github awesome llm robotics language models robots awesome-llm-robotics",
+    "github awesome embodied ai agents robot manipulation list",
+    "\"Awesome-LLM-Robotics\" github",
+    "\"Awesome-Embodied-Agent-with-LLMs\""
+  ],
+  "discovery_sources": [
+    "https://kairunwen.github.io/Awesome-Robot-Use-Agent/",
+    "https://github.com/benchflow-ai/awesome-embodied-agents",
+    "https://github.com/harooos/awesome-coding-agents-for-robot-learning",
+    "https://github.com/chonghanqin/Awesome-Agentic-Robots",
+    "https://github.com/cagbal/awesome-foundation-models-for-robotics",
+    "https://github.com/Neal2020GitHub/awesome-embodied-agents",
+    "https://github.com/keon/awesome-physical-ai",
+    "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+    "https://github.com/Lin-Murphy/Awesome-Robot-Agents",
+    "https://github.com/GT-RIPL/Awesome-LLM-Robotics",
+    "https://github.com/zchoi/Awesome-Embodied-Robotics-and-Agent"
+  ],
+  "selection_notes": [
+    "优先 RUA、Astra、coding agents for robotics；补充 LLM/VLM 与 VLA 基础模型清单。",
+    "对 Awesome-Embodied-Agent-with-LLMs 的 fork，选择原维护仓库 zchoi/Awesome-Embodied-Robotics-and-Agent，避免重复克隆。",
+    "泛 AI agents、computer-use、游戏代理资料未单独纳入；扩展清单内部仍可能包含这些邻近主题。",
+    "不按 star 数排序；不宣称穷尽所有相关 awesome 仓库。"
+  ]
+}
