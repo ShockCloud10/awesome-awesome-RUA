@@ -1,6 +1,6 @@
 # RUA 机器人控制资料库
 
-围绕 Robot Use Agent（RUA）、coding agent 以及基础模型控制机器人，收集 GitHub awesome 清单、X、Reddit、知乎和技术博客。采集日期：2026 年 11 月 23 日（Asia/Hong_Kong）。
+围绕 Robot Use Agent（RUA）、coding agent 以及基础模型控制机器人，收集 GitHub awesome 清单、X、Reddit、知乎和技术博客
 
 ## 分类入口
 
