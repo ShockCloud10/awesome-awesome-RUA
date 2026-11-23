@@ -7,7 +7,8 @@ from pathlib import Path
 from urllib.parse import urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-GROUPS = [("github", "GitHub awesome 仓库"), ("x", "X 与 Twitter 帖子"), ("reddit", "Reddit 帖子"), ("zhihu", "知乎文章与帖子"), ("blogs", "技术博客与研究文章")]
+GROUPS = [("github", "GitHub awesome repositories"), ("x", "X / Twitter posts"), ("reddit", "Reddit posts"), ("zhihu", "Zhihu articles and discussions"), ("blogs", "Technical blogs and research articles")]
+PLATFORM_LABELS = {"x": "X", "reddit": "Reddit", "zhihu": "Zhihu", "blogs": "Blog"}
 
 
 def normalized_url(url):
@@ -63,21 +64,65 @@ def main():
                  total=len(catalog), evidence_status_counts=evidence,
                  checks=["JSON 可解析", "条目 ID 唯一", "每平台主链接去重", "本地笔记存在", "每条都有摘要与证据链接"])
     (ROOT / "collection_stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=2) + "\n")
-    lines = ["# RUA 机器人控制资料库", "", "围绕 Robot Use Agent（RUA）、coding agent 以及基础模型控制机器人，收集 GitHub awesome 清单、X、Reddit、知乎和技术博客。采集日期：2026 年 11 月 23 日（Asia/Hong_Kong）。", "", "## 分类入口", "", "| 资料类别 | 数量 | 本地入口 |", "| --- | ---: | --- |"]
+    titles_en = json.loads((ROOT / "scripts" / "readme_titles_en.json").read_text())
+    lines = [
+        "# awesome-awesome-RUA", "",
+        "A curated collection of awesome lists, community posts, and research blogs about **Robot-Use Agents (RUA)**: coding agents and foundation models that control robots through perception, planning, tools, and execution feedback.", "",
+        "This homepage is in English; the individual research notes and category indexes are currently in Chinese.", "",
+        "## Browse the collection", "",
+        "| Category | Entries | Index |", "| --- | ---: | --- |",
+    ]
     for group, label in GROUPS:
         lines.append(f"| {label} | {count[group]} | [{group}/README.md]({group}/README.md) |")
-    lines += ["", "GitHub 保存的是实际仓库浅克隆；帖子和博客保存的是原始链接、中文摘要、模型与机器人信息、控制方式及来源核实状态。视频没有下载，也没有把演示视频视为已独立复现的实验。", "", "访问限制：15 条 X 原帖均未直接读取，分别通过项目页、公开镜像、聚合页或搜索摘要收集；10 条知乎资料中 9 条仅获得搜索索引摘要。每条记录保留具体证据等级。", "", "## 建议阅读顺序", "", "1. [Awesome Robot Use Agent](github/repos/kairunwen__Awesome-Robot-Use-Agent/README.md)：从 RUA 总览进入论文、工具、基准和社区演示。", "2. [Awesome Astra Embodied AI](github/repos/zjwzcx__Awesome-Astra-Embodied-AI/README.md)：聚焦 Astra，区分真机、仿真、策略调用和训练工作流。", "3. [Coding Agents for Robot Learning](github/repos/harooos__awesome-coding-agents-for-robot-learning/README.md) 与 [BenchFlow Embodied Agents](github/repos/benchflow-ai__awesome-embodied-agents/README.md)：追踪 agent 与机器人执行接口。", "4. [博客索引](blogs/README.md)：阅读一手研究文章和项目方法说明；再结合 [X](x/README.md)、[Reddit](reddit/README.md) 和 [知乎](zhihu/README.md) 查看演示与讨论。", "", "## 关键词导航", "", "模型名称沿用来源中的写法。Astra、Opus、Fable 作为不同关键词保留，不根据简称推断未明确披露的型号或版本。", ""]
-    for label, pattern in [("Astra", r"astra"), ("Opus", r"opus"), ("Fable", r"fable"), ("Gemini", r"gemini"), ("机器人接口与工具调用", r"mcp|tool.use|ros|harness")]:
+    lines += [
+        "", f"**{len(catalog)} entries in total.** Upstream repositories are pinned as Git submodules. Posts and blogs have source links, Chinese summaries, model and robot details, control interfaces, and evidence status. Videos are not archived, and reported demonstrations have not been independently reproduced.", "",
+        "**Access limitations:** All 15 X posts were inaccessible on X itself; their records rely on project pages, public mirrors, aggregation pages, or search snippets. Nine of the 10 Zhihu entries were available only through search snippets. Each record identifies its evidence level.", "",
+        "## Start here", "",
+        "1. [Awesome Robot Use Agent](github/repos/kairunwen__Awesome-Robot-Use-Agent/README.md): an overview of RUA papers, tools, benchmarks, and community demonstrations.",
+        "2. [Awesome Astra Embodied AI](github/repos/zjwzcx__Awesome-Astra-Embodied-AI/README.md): Astra workflows across physical robots, simulation, policy calls, and training.",
+        "3. [Coding Agents for Robot Learning](github/repos/harooos__awesome-coding-agents-for-robot-learning/README.md) and [BenchFlow Embodied Agents](github/repos/benchflow-ai__awesome-embodied-agents/README.md): how coding agents connect to robot execution interfaces.",
+        "4. [Research blogs](blogs/README.md): first-party methods and project reports, complemented by demonstrations and discussions on [X](x/README.md), [Reddit](reddit/README.md), and [Zhihu](zhihu/README.md).", "",
+        "## Browse by model and interface", "",
+        "Model names follow the sources. Astra, Opus, and Fable are kept as separate keywords; unspecified model versions are not inferred from shorthand names.", "",
+    ]
+    for label, pattern in [("Astra", r"astra"), ("Opus", r"opus"), ("Fable", r"fable"), ("Gemini", r"gemini"), ("Robot interfaces and tool use", r"mcp|tool.use|ros|harness")]:
         selected = [r for r in catalog if r["platform"] != "github" and re.search(pattern, " ".join([r["title"], *r["models"], *r["tags"]]), re.I)]
         lines += [f"### {label}", ""]
         for r in selected:
-            title = r["title"].replace("[", "(").replace("]", ")")
-            lines.append(f"- [{title}]({r['local_note']}) · {r['platform']}")
+            title = titles_en.get(r["id"], r["title"]).replace("[", "(").replace("]", ")")
+            if re.search(r"[\u3400-\u9fff]", title):
+                raise ValueError(f"English README title missing for {r['id']}")
+            lines.append(f"- [{title}]({r['local_note']}) · {PLATFORM_LABELS[r['platform']]}")
         if not selected:
-            lines.append("详见各平台索引中的模型字段。")
+            lines.append("See the model fields in each category index.")
         lines.append("")
-    lines += ["## 如何理解资料", "", "真机操作、仿真任务、高层规划、工具调用和学习到的 VLA 策略处于不同层次。某个模型能生成机械臂控制程序，并不表示它直接在电机伺服频率下输出控制信号；具体以每条记录的 control_layer 和 limitations 为准。", "", "page_read 等状态表示读取到网页内容；project_crosschecked 或 mirror_post_read 表示使用项目页或公开镜像辅助核对；snippet_only 表示只获得搜索索引摘要。它们描述来源可见性，不代表独立验证作者的实验结论。不同目录的状态细分见各自 README。", "", "搜索未找到或访问受限不等于相关工作不存在。未确认候选保留在各目录的 candidates.json，未计入主条目数；检索关键词与来源线索保留在 search_log.json。主记录按 URL 去重，同一项目在不同平台的帖子仍分别保存，数量不等于独立项目数量。", "", "## 文件与后续整理", "", "- 每类 records.json：完整结构化记录。", "- catalog.json：跨平台链接目录，包含本地笔记路径、模型和标签。", "- collection_stats.json：条目统计与检查结果。", "- github/metadata/：每个仓库的 commit、remote、README SHA256 和许可证信息。", "- scripts/index_github.py：重新检查已经下载的仓库并生成索引。", "- scripts/build_catalog.py：重新生成总导航并检查记录及本地链接。", "", "网页全文和媒体未批量转载，原始内容请通过每条笔记的来源链接访问。第三方仓库保留原许可证；上游未注明许可证的仓库已在元数据中注明。", ""]
-    lines += ["## 下载全部资料", "", "本项目使用 Git 子模块记录 11 个上游 awesome 仓库及其固定提交。完整下载命令：", "", "```bash", "git clone --recurse-submodules https://github.com/ShockCloud10/awesome-awesome-RUA.git", "```", "", "已经克隆主仓库时，在根目录执行 `git submodule update --init --recursive`。GitHub 下载 ZIP 不包含子模块内容；独立笔记、索引和 JSON 保存在主仓库。", ""]
+    lines += [
+        "## Reading the evidence", "",
+        "Physical robot experiments, simulated tasks, high-level planning, tool calls, and learned vision-language-action (VLA) policies describe different forms of control. Generating a robot control program does not imply that the model issues commands at motor servo frequency. Check each record's `control_layer` and `limitations` fields for the actual setup.", "",
+        "Evidence labels describe source access, not independent validation of experimental results:", "",
+        "- `page_read`: the page text was accessible and read.",
+        "- `primary_project_crosschecked`: related technical claims were checked against the author's project page or an official report.",
+        "- `mirror_post_read`: the post text was read through a public mirror.",
+        "- `mirror_post_read_and_primary_crosschecked`: both mirror text and a primary report were consulted.",
+        "- `secondary_page_read`: only an aggregation page was read.",
+        "- `snippet_only`: only search-index snippets were available.", "",
+        "Access restrictions and unsuccessful searches do not establish that relevant work is absent. Unconfirmed or excluded candidates are stored in each category's `candidates.json` and are not included in the entry counts. Search queries and source trails are recorded in `search_log.json`. Main records are deduplicated by URL within each platform; posts about the same project may appear across platforms, so entry counts are not counts of independent projects.", "",
+        "## Files and maintenance", "",
+        "- `records.json` in each category: complete structured records.",
+        "- [catalog.json](catalog.json): a cross-platform directory with local note paths, models, and tags.",
+        "- [collection_stats.json](collection_stats.json): entry counts and validation results.",
+        "- [github/metadata/](github/metadata/): upstream commits, remotes, README SHA256 hashes, and license information.",
+        "- [scripts/index_github.py](scripts/index_github.py): check downloaded repositories and rebuild their index.",
+        "- [scripts/build_catalog.py](scripts/build_catalog.py): regenerate this English homepage and validate records and local note paths.",
+        "- [scripts/readme_titles_en.json](scripts/readme_titles_en.json): English navigation labels for community posts.", "",
+        "Full articles and media are not reproduced here; follow the source links in each note to access the originals. Third-party repositories retain their own licenses. Missing upstream license declarations are recorded in the metadata.", "",
+        "## Download the complete collection", "",
+        "The 11 upstream awesome repositories are Git submodules pinned to specific commits. Clone the project with its submodules:", "",
+        "```bash", "git clone --recurse-submodules https://github.com/ShockCloud10/awesome-awesome-RUA.git", "```", "",
+        "If you have already cloned the main repository, run this from its root:", "",
+        "```bash", "git submodule update --init --recursive", "```", "",
+        "GitHub ZIP downloads exclude submodule contents. The research notes, indexes, and JSON records are stored directly in the main repository.", "",
+    ]
     text = "\n".join(lines)
     for r in json.loads((ROOT / "github" / "records.json").read_text()):
         text = text.replace(f"({r['readme_path']})", f"({r['url']}/blob/{r['commit']}/README.md)")
